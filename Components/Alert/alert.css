@@ -1,0 +1,18 @@
+
+.alert{
+    border-radius: 4px;
+    background-color: var(--basic);
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+
+.alert-link{
+    color: var(--white);
+}
+
+.fa-times{
+    cursor: pointer;
+}
