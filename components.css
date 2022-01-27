@@ -59,6 +59,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   gap: 1rem;
   border: 4px solid var(--light-gray);
   border-radius: 5px;
@@ -77,4 +78,42 @@ iframe {
 
 main {
   padding: 2rem;
+}
+
+/* ---colors */
+
+.primary{
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+
+.success{
+  background-color: var(--success);
+  color: var(--white);
+}
+
+.info{
+  background-color: var(--info);
+  color: var(--white);
+}
+
+.warning{
+  background-color: var(--warning);
+  color: var(--warning-text);
+}
+
+.danger{
+  background-color: var(--danger);
+  color: var(--white);
+}
+
+
+/* ------ below code is just for pull requests (will delete later) ------ */
+.main{
+  padding: 0 4rem;
+}
+
+.component-heading{
+  padding: 4rem 0;
 }
