@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700&display=swap");
+
+@import url("/Components/Alert/alert.css");
+@import url("/Components/Avatar/avatar.css");
+@import url("/Components/Badge/badge.css");
+@import url("/Components/Button/button.css");
+
+@import url("/Components/Image/image.css");
+@import url("/Components/Input/input.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  word-spacing: 1px;
+  line-height: 1.5rem;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+:root {
+  --basic: #dbd9d9;
+  --primary: #19456b;
+  --primary-hover: #133e64;
+  --secondary: #16c79a;
+  --secondary-hover: #0eb98f;
+  --primary-color: #131313;
+  --secondary-color: #3cca89;
+  --tertiary-color: #19b49a;
+  --white: #ffffff;
+  --light-gray: #f0f0f0;
+  --success: #52e252;
+  --info: #1863c5;
+  --warning: #f7cc42;
+  --warning-text: #a15e05;
+  --danger: #fc2424;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #313131;
+}
+
+
+.component-heading {
+  /* border-top: 2px solid var(--light-gray); */
+  padding-bottom: 1rem;
+}
+
+.component-body {
+  border-top: 2px solid var(--light-gray);
+  border-bottom: 2px solid var(--light-gray);
+  padding-top: 1rem;
+}
+
+.component-example-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border: 4px solid var(--light-gray);
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.flex-column{
+  display: flex;
+  flex-flow: column wrap;
+}
+
+iframe {
+  width: 100% !important;
+}
+
+main {
+  padding: 2rem;
+}
