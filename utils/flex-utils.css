@@ -1,0 +1,15 @@
+.flex-row-center {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.flex-column-center {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}

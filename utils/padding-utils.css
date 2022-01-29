@@ -1,0 +1,30 @@
+.padding-xs {
+    padding: 0.5rem;
+}
+
+.padding-sm {
+    padding: 1rem;
+}
+
+.padding-md {
+    padding: 1.5rem;
+}
+
+.padding-lg {
+    padding: 2rem;
+}
+
+.padding-xlg {
+    padding: 2.5rem;
+}
+
+
+/* box-shadow */
+
+.card-shadow{
+    box-shadow: 0 1px 4px 1px #acacac;
+}
+
+.text-align-center{
+    text-align: center;
+}
