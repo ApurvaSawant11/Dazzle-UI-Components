@@ -1,7 +1,5 @@
 .badge {
   position: relative;
-  width: max-content;
-  margin:1rem;
 }
   
 .badge-status {
@@ -18,13 +16,6 @@
   
 .badge .busy {
   background-color: var(--danger);
-}
-  
-.profile-badge {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap
 }
   
 .avatar.size-lg ~ .badge-status {
