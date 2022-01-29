@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dazzle UI</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
-    <link rel="stylesheet" href="/components.css"/>
+    <link rel="stylesheet" href="/components/components.css"/>
     <link rel="stylesheet" href="/documentation.css"/>
 </head>
 <body>
@@ -209,7 +209,7 @@
         </div>
   
         <div class="component-body">
-            <h4>Profile Badge</h4>
+          <h4>Profile Badge</h4>
             <div class="component-example-container">
                 <div class="badge">
                   <img
@@ -366,7 +366,76 @@
           </div>
 
           <div class="component-code-snippet"></div>
+
+        <!-- -------------------------- Image ------------------------ -->
+
+        <div class="component-heading">
+          <h2>Responsive Image</h2>
         </div>
+
+        <div class="component-body">
+          <h4>Image</h4>
+          <div class="component-example-container">
+            <div class="img-container">
+              <img class="img-responsive" src="/images/pottery2.jpeg" alt="responsive-image"/>
+            </div>
+          </div>
+          <div class="component-code-snippet"></div>
+
+          <h4>Rounded Image</h4>
+          <div class="component-example-container">
+            <img class="img-responsive img-rounded" src="/images/cup1.jpg" alt="responsive-image"/>
+          </div>
+          <div class="component-code-snippet"></div>
+
+          <h4>Squared Image</h4>
+          <div class="component-example-container">
+            <img class="img-responsive img-squared" src="/images/cup1.jpg" alt="responsive-image"/>
+          </div>
+          <div class="component-code-snippet"></div>
+
+        </div>
+
+
+        <!-- ------------------------------------------ Input ------------------------------------ -->
+
+        <div class="component-heading">
+          <h2>Input</h2>
+        </div>
+
+        <div class="component-body">
+          <h4>Basic Input</h4>
+          <div class="component-example-container" style="display: block;">
+            <div class="input-field">
+              <input class="input" type="text" value="Apurva" required/>
+              <span class="bar"></span>
+              <label class="placeholder">Enter Name</label>
+            </div>
+          </div>
+          <div class="component-code-snippet"></div>
+
+          <h4>Input with error</h4>
+          <div class="component-example-container" style="display: block;">
+            <div class="input-field">
+              <input class="input error" type="text" required/>
+              <span class="bar"></span>
+              <label class="placeholder">Enter Email ID</label>
+              <span class="error-msg">Please enter valid Email ID</span>
+            </div>
+          </div>
+          <div class="component-code-snippet"></div>
+
+          <h4>Textarea</h4>
+          <div class="component-example-container" style="display: block;">
+            <div class="input-field">
+              <textarea class="input textarea" type="text" required></textarea>
+              <span class="bar"></span>
+              <label class="placeholder">Textarea</label>
+            </div>
+          </div>
+          <div class="component-code-snippet"></div>
+        </div>
+      </div>
     </div>
 </body>
 </html>
