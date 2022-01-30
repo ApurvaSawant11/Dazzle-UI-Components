@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700&display=swap");
 
-@import url("/utils/padding-utils.css");
-@import url("/utils/flex-utils.css");
-@import url("/utils/text-utils.css");
+@import url("/components/utils/padding-utils.css");
+@import url("/components/utils/flex-utils.css");
+@import url("/components/utils/text-utils.css");
 
-@import url("/typography.css");
+@import url("/components/typography.css");
 
 @import url("/components/Alert/alert.css");
 @import url("/components/Avatar/avatar.css");

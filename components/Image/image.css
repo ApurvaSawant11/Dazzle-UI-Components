@@ -1,0 +1,21 @@
+.img-container {
+    max-width: 30vw;
+}
+
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+.img-rounded {
+    border-radius: 50%;
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+}
+
+.img-squared {
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+}
