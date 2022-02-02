@@ -19,13 +19,14 @@
     color: var(--white);
 }
 
-.success {
-    background-color: var(--success);
+.secondary {
+    background-color: var(--secondary);
     color: var(--white);
 }
 
-.success:hover {
-    color: white;
+.success {
+    background-color: var(--success);
+    color: var(--white);
 }
 
 .info {
@@ -58,6 +59,18 @@
     color: var(--white);
 }
 
+.inverted-secondary {
+    color: var(--secondary);
+    border: 1px solid var(--secondary);
+    background-color: transparent;
+}
+
+.inverted-secondary:hover, .inverted-secondary:focus {
+    background-color: var(--secondary);
+    border: 1px solid var(--secondary);
+    color: var(--white);
+}
+
 .inverted-success {
     color: var(--success);
     border: 1px solid var(--success);
@@ -67,7 +80,7 @@
 .inverted-success:hover, .inverted-success:focus {
     background-color: var(--success);
     border: 1px solid var(--success);
-    color: var(--white);
+    color: var(--success-text);
 }
 
 .inverted-info {
