@@ -22,7 +22,7 @@
     color: var(--dark-gray);
 }
 
-.fa-times:hover{
+.card-close:hover{
     padding: 0.5rem 0.6rem;
     border-radius: 50%;
     background-color: var(--light-gray);
