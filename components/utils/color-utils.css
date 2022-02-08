@@ -5,6 +5,11 @@
   color: var(--white);
 }
 
+.secondary{
+  background-color: var(--secondary);
+  color: var(--white);
+}
+
 .success {
   background-color: var(--success);
   color: var(--success-text);
