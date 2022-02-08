@@ -1,0 +1,74 @@
+/* ---colors--- */
+
+.primary {
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+.success {
+  background-color: var(--success);
+  color: var(--success-text);
+}
+
+.info {
+  background-color: var(--info);
+  color: var(--white);
+}
+
+.warning {
+  background-color: var(--warning);
+  color: var(--warning-text);
+}
+
+.danger {
+  background-color: var(--danger);
+  color: var(--white);
+}
+
+/* --------------- text-color ------------ */
+
+.primary-text {
+  color: var(--primary);
+}
+
+.secondary-text {
+    color: var(--secondary);
+}
+
+.success-text {
+  color: var(--success-text);
+}
+
+.info-text {
+  color: var(--info);
+}
+
+.warning-text {
+  color: var(--warning-text);
+}
+
+.danger-text {
+  color: var(--red);
+}
+
+/* ------------------bg-color----------------- */
+
+.primary-bg {
+  background-color: var(--primary);
+}
+
+.success-bg {
+  background-color: var(--success);
+}
+
+.info-bg {
+  background-color: var(--info);
+}
+
+.warning-bg {
+  background-color: var(--warning);
+}
+
+.danger-bg {
+  background-color: var(--danger);
+}

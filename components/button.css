@@ -1,5 +1,4 @@
 .button {
-    color: #474747;
     font-size: 0.85rem;
     font-weight: 600;
     text-decoration: none;
@@ -8,42 +7,18 @@
     outline: none;
     padding: 0.5rem 1rem;
     cursor: pointer;
-    background-color: var(--basic);
     text-transform: uppercase;
 }
 
-/* ------------------ Contained Buttons ---------------- */
-
-.primary {
-    background-color: var(--primary);
-    color: var(--white);
+.button-anchor {
+    color: black;
+    background-color: #efefef;
 }
 
-.secondary {
-    background-color: var(--secondary);
-    color: var(--white);
+.button-link {
+    text-decoration: none;
+    text-transform: uppercase;
 }
-
-.success {
-    background-color: var(--success);
-    color: var(--white);
-}
-
-.info {
-    background-color: var(--info);
-    color: var(--white);
-}
-
-.warning {
-    background-color: var(--warning);
-    color: var(--warning-text);
-}
-
-.danger {
-    background-color: var(--danger);
-    color: var(--white);
-}
-
 
 /* ----------- Inverted Buttons ----------- */
 

@@ -1,15 +1,29 @@
-.flex-row-center {
+.flex-row{
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
 }
 
-.flex-column-center {
+.flex-column {
     display: flex;
     flex-flow: column wrap;
-    justify-content: center;
+}
+
+.items-center {
     align-items: center;
-    gap: 1rem;
+}
+
+.items-end {
+    align-items: flex-end;
+}
+
+.items-start {
+    align-items: flex-start;
+}
+
+.items-baseline {
+    align-items: baseline;
+}
+
+.items-stretch {
+    align-items: stretch;
 }
