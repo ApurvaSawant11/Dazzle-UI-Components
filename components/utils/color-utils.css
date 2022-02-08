@@ -53,6 +53,10 @@
 
 /* ------------------bg-color----------------- */
 
+.basic-bg {
+  background-color: var(--basic);
+}
+
 .primary-bg {
   background-color: var(--primary);
 }

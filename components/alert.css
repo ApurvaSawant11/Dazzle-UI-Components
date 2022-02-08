@@ -1,7 +1,6 @@
 
 .alert{
     border-radius: 4px;
-    background-color: var(--basic);
     padding: 0.5rem 1rem;
     display: flex;
     justify-content: space-between;
