@@ -45,6 +45,10 @@
     background-color: var(--light-gray);
 }
 
+.card-shadow{
+    box-shadow: 0 1px 4px 1px var(--shadow);
+}
+
 /* -------------------Horizontal------------------- */
 .card-horizontal {
     min-width: 20rem;

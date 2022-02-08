@@ -12,36 +12,10 @@
     text-transform: uppercase;
 }
 
-/* ------------------ Contained Buttons ---------------- */
 
-.primary {
-    background-color: var(--primary);
-    color: var(--white);
-}
-
-.secondary {
-    background-color: var(--secondary);
-    color: var(--white);
-}
-
-.success {
-    background-color: var(--success);
-    color: var(--white);
-}
-
-.info {
-    background-color: var(--info);
-    color: var(--white);
-}
-
-.warning {
-    background-color: var(--warning);
-    color: var(--warning-text);
-}
-
-.danger {
-    background-color: var(--danger);
-    color: var(--white);
+.button-anchor {
+    color: var(--dark-black);
+    background-color:var(--basic);
 }
 
 

@@ -27,12 +27,12 @@
 }
 
 :root {
-  --basic: #dbd9d9;
+  --basic: #efefef;
   --primary: #19456b;
   --primary-hover: #133e64;
   --secondary: #16c79a;
   --secondary-hover: #0eb98f;
-  --primary-color: #131313;
+  --dark-black:#000000;
   --secondary-color: #3cca89;
   --tertiary-color: #19b49a;
   --white: #ffffff;
@@ -44,6 +44,7 @@
   --warning: #f7cc42;
   --warning-text: #764605;
   --danger: #fc2424;
+  --shadow:#acacac;
 }
 
 html {
