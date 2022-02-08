@@ -9,3 +9,28 @@
 .font-size-lg{
     font-size: 1.4rem !important;
 }
+
+/* ----------------- font-weight------------- */
+.font-w-300 {
+    font-weight: 300;
+}
+
+.font-w-500 {
+    font-weight: 500;
+}
+
+.font-w-700 {
+    font-weight: 700;
+}
+
+/* ------------------- text alignment ------------------ */
+
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}

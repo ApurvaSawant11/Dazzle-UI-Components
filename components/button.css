@@ -1,5 +1,4 @@
 .button {
-    color: #474747;
     font-size: 0.85rem;
     font-weight: 600;
     text-decoration: none;
@@ -8,16 +7,18 @@
     outline: none;
     padding: 0.5rem 1rem;
     cursor: pointer;
-    background-color: var(--basic);
     text-transform: uppercase;
 }
 
-
 .button-anchor {
-    color: var(--dark-black);
-    background-color:var(--basic);
+    color: black;
+    background-color: #efefef;
 }
 
+.button-link {
+    text-decoration: none;
+    text-transform: uppercase;
+}
 
 /* ----------- Inverted Buttons ----------- */
 

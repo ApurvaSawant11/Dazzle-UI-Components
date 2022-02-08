@@ -34,16 +34,6 @@ h6{
     font-size: 1.1rem;
 }
 
-.text-center{
-    text-align: center;
-}
-.text-left{
-    text-align: left;
-}
-.text-right{
-    text-align: right;
-}
-
 
 @media screen and (max-width: 768px){
     

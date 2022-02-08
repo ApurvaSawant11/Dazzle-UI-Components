@@ -5,7 +5,7 @@
 
 .subtitle {
     text-transform: capitalize;
-    font-size: small;
+    font-size: 0.9rem;
     color: var(--dark-gray);
 }
   
@@ -37,7 +37,6 @@
 
 .card-icon{
     cursor: pointer;
-    padding: 0.6rem;
     border-radius: 50%;
 }
 
@@ -46,7 +45,7 @@
 }
 
 .card-shadow{
-    box-shadow: 0 1px 4px 1px var(--shadow);
+    box-shadow: 0 1px 4px 1px #acacac;
 }
 
 /* -------------------Horizontal------------------- */
@@ -66,8 +65,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 1rem;
-    padding-top: 1rem;
     border-top: 1px solid var(--light-gray);
 }
 
@@ -94,7 +91,7 @@
 .badge-text {
     position: absolute;
     font-size: small;
-    padding: 0rem 0.5rem;
+    font-weight: bold;
     width: max-content;
     top: 1rem;
     left: 0;
