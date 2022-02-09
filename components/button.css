@@ -16,6 +16,7 @@
 }
 
 .button-link {
+    cursor: pointer;
     text-decoration: none;
     text-transform: uppercase;
 }
