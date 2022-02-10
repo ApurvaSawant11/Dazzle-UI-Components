@@ -1,12 +1,26 @@
 .flex-row{
     display: flex;
-    flex-flow: row wrap;
 }
 
 .flex-column {
     display: flex;
-    flex-flow: column wrap;
+    flex-direction: column;
 }
+
+/* ---------- wrap ------------ */
+.wrap {
+    flex-wrap: wrap;
+}
+
+.nowrap {
+    flex-wrap: nowrap;
+}
+
+.wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+
+/* ----------- alignement------------ */
 
 .items-center {
     align-items: center;
