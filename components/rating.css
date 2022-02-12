@@ -1,0 +1,89 @@
+.rating-group, .thumb-group, .face-group {
+  display: inline-flex;
+}
+
+.rating-input, .thumb-rating, .face-rating {
+  position: absolute;
+  left: -9999px;
+}
+
+.rating-label {
+  cursor: pointer;
+  padding: 0 0.1em;
+  font-size: 2rem;
+}
+
+.rating-icon--star {
+  color: var(--secondary);
+}
+
+.rating-input:checked ~ .rating-label .rating-icon--star {
+  color: var(--border-color);
+}
+
+.rating-group:hover .rating-label .rating-icon--star {
+  color: var(--secondary);
+}
+
+.rating-input:hover ~ .rating-label .rating-icon--star {
+  color: var(--border-color);
+}
+
+/* ---------------------Thumbs up & down---------------- */
+.like:hover,
+.dislike:hover {
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.1);
+  font-weight: 700;
+}
+
+.like:hover,
+#thumbs-up:checked ~ .like {
+  color: var(--info);
+  font-weight: 700;
+}
+
+.dislike:hover,
+#thumbs-down:checked ~ .dislike {
+  color: var(--danger);
+  font-weight: 700;
+}
+
+/* ------------------face rating----------------- */
+
+.excellent:hover,
+.good:hover,
+.okay:hover,
+.bad:hover {
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.excellent:hover,
+#excellent:checked ~ .excellent{
+  color: var(--success);
+  font-weight: 700;
+  transform: scale(1.2);
+}
+
+.good:hover,
+#good:checked ~ .good{
+  color: var(--info);
+  font-weight: 700;
+  transform: scale(1.2);
+}
+
+.okay:hover,
+#okay:checked ~ .okay{
+  color: var(--warning-text);
+  font-weight: 700;
+  transform: scale(1.2);
+}
+
+.bad:hover,
+#bad:checked ~ .bad{
+  color: var(--danger);
+  font-weight: 700;
+  transform: scale(1.2);
+}

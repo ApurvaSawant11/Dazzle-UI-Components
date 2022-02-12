@@ -6,6 +6,7 @@
 @import "./utils/text-utils.css";
 @import "./utils/color-utils.css";
 @import "./utils/margin-utils.css";
+@import "./utils/border-utils.css";
 
 @import "./typography.css";
 
@@ -17,6 +18,9 @@
 
 @import "./image.css";
 @import "./input.css";
+@import "./list.css";
+@import "./modal.css";
+@import "./rating.css";
 
 * {
   margin: 0;
@@ -33,9 +37,8 @@
   --primary-hover: #133e64;
   --secondary: #16c79a;
   --secondary-hover: #0eb98f;
+  --black: #313131;
   --dark-black:#000000;
-  --secondary-color: #3cca89;
-  --tertiary-color: #19b49a;
   --white: #ffffff;
   --light-gray: #f0f0f0;
   --dark-gray:#6e6e6e;
@@ -45,7 +48,10 @@
   --warning: #f7cc42;
   --warning-text: #764605;
   --danger: #fc2424;
+  --border-color: #dddddd;
   --shadow:#acacac;
+  --card-button:#f0fffb;
+  --overlay: rgba(0, 0, 0, 0.6);
 }
 
 html {
@@ -53,19 +59,9 @@ html {
 }
 
 body {
-  color: #313131;
-}
-
-.flex-column{
-  display: flex;
-  flex-flow: column wrap;
+  color: var(--black);
 }
 
 iframe {
   width: 100% !important;
 }
-
-main {
-  padding: 2rem;
-}
-

@@ -1,451 +1,796 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dazzle UI</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
-    <link rel="stylesheet" href="./components/components.css"/>
-    <link rel="stylesheet" href="/documentation.css"/>
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./components/components.css" />
+    <link rel="stylesheet" href="/documentation.css" />
+  </head>
+  <body>
     <div class="main">
+      <!-- ------------------------- Alerts -------------------------- -->
+      <div class="component-heading">
+        <h2>Alerts</h2>
+        <p>
+          Alerts are used to attract user's attention for important information
+          without interrupting the user's flow.
+        </p>
+        <p></p>
+      </div>
 
-        <!-- ------------------------- Alerts -------------------------- -->
-        <div class="component-heading">
-            <h2>Alerts</h2>
-            <p>Alerts are used to attract user's attention for important information without interrupting the user's flow.<p>
+      <div class="component-body">
+        <h4 class="h4">Basic Alert</h4>
+
+        <div class="component-example-container">
+          <div class="alert basic-bg">
+            <div class="alert-text">A basic alert example!!!!</div>
+            <i class="fas fa-times"></i>
+          </div>
+        </div>
+        <div class="component-code-snippet"></div>
+
+        <h4>Alert with Link</h4>
+        <p>If you want user to click on alert</p>
+        <div class="component-example-container">
+          <div class="alert primary">
+            <div class="alert-text">
+              A primary alert example with a text link
+              <a class="alert-link" href="#">Check it out!</a>
+            </div>
+            <i class="fas fa-times"></i>
+          </div>
         </div>
 
-        <div class="component-body">
-            <h4 class="h4">Basic Alert</h4>
+        <div class="component-code-snippet"></div>
 
-            <div class="component-example-container">
-                <div class="alert basic-bg">
-                    <div class="alert-text">
-                         A basic alert example!!!!
-                    </div>
-                    <i class="fas fa-times"></i>
-                </div>
+        <h4>Alert with color</h4>
+        <p>If you want user to click on alert</p>
+        <div class="component-example-container flex-column">
+          <div class="alert success">
+            <div class="alert-text">
+              <i class="fas fa-check-circle"></i> A success alert example!!!!
             </div>
-            <div class="component-code-snippet">
+            <i class="fas fa-times"></i>
+          </div>
 
+          <div class="alert warning">
+            <div class="alert-text">
+              <i class="fas fa-exclamation-triangle"></i> A warning alert
+              example!!!!
             </div>
-
-            <h4>Alert with Link</h4>
-            <p>If you want user to click on alert </p>
-            <div class="component-example-container">
-                <div class="alert primary">
-                    <div class="alert-text">
-                        A primary alert example with a text link <a class="alert-link" href="#">Check it out!</a>
-                    </div>
-                    <i class="fas fa-times"></i>
-                </div>
+            <i class="fas fa-times"></i>
+          </div>
+          <div class="alert danger">
+            <div class="alert-text">
+              <i class="fas fa-skull-crossbones"></i> A danger alert example!!!!
             </div>
-
-            <div class="component-code-snippet">
-
-            </div>
-
-            <h4>Alert with color</h4>
-            <p>If you want user to click on alert </p>
-            <div class="component-example-container flex-column">
-                <div class="alert success">
-                    <div class="alert-text">
-                        <i class="fas fa-check-circle"></i> A success alert example!!!!
-                    </div>
-                    <i class="fas fa-times"></i>
-                </div>
-
-                <div class="alert warning">
-                    <div class="alert-text">
-                        <i class="fas fa-exclamation-triangle"></i> A warning alert example!!!!
-                    </div>
-                    <i class="fas fa-times"></i>
-                </div>
-                <div class="alert danger">
-                    <div class="alert-text"><i class="fas fa-skull-crossbones"></i>   A danger alert example!!!!
-                    </div>
-                    <i class="fas fa-times"></i>
-                </div>
-            </div>
-            <div class="component-code-snippet">
-
-            </div>
-        </div> 
-
-        <!-- ------------------------- Avatar -------------------------- -->
-        <div class="component-heading">
-            <h2>Avatar</h2>
-            <p>Avatars are used to</p>
+            <i class="fas fa-times"></i>
+          </div>
         </div>
-  
-        <div class="component-body">
-            <h4>Rounded Avatar</h4>
-            <p>If you want to a rounded avatar just add a class "avatar" to it.</p>
-            <div class="component-example-container">
+        <div class="component-code-snippet"></div>
+      </div>
+
+      <!-- ------------------------- Avatar -------------------------- -->
+      <div class="component-heading">
+        <h2>Avatar</h2>
+        <p>Avatars are used to</p>
+      </div>
+
+      <div class="component-body">
+        <h4>Rounded Avatar</h4>
+        <p>If you want to a rounded avatar just add a class "avatar" to it.</p>
+        <div class="component-example-container">
+          <img
+            class="avatar rounded size-lg"
+            src="/images/profile_picture3.jpeg"
+          />
+          <img
+            class="avatar rounded size-md"
+            src="/images/profile_picture2.jpeg"
+          />
+          <img
+            class="avatar rounded size-sm"
+            src="/images/profile_picture4.jpeg"
+          />
+        </div>
+
+        <div class="component-code-snippet"></div>
+
+        <h4>Sqaured Avatar</h4>
+        <p>If you want to use image</p>
+        <div class="component-example-container">
+          <img
+            class="avatar squared size-lg"
+            src="/images/profile_picture1.jpeg"
+          />
+          <img
+            class="avatar squared size-md"
+            src="/images/profile_picture4.jpeg"
+          />
+          <img
+            class="avatar squared size-sm"
+            src="/images/profile_picture3.jpeg"
+          />
+        </div>
+        <div class="component-code-snippet"></div>
+
+        <h4>Named Avatar</h4>
+        <p>If you want to use image</p>
+        <div class="component-example-container">
+          <div class="avatar rounded primary size-lg">AS</div>
+          <div class="avatar squared success size-md">AS</div>
+          <div class="avatar rounded warning size-sm">AS</div>
+        </div>
+        <div class="component-code-snippet"></div>
+      </div>
+
+      <!-- ------------------------------- Button ------------------------------------- -->
+      <div class="component-heading">
+        <h2>Buttons</h2>
+        <p>
+          Button is a trigger that allows user to take action. We have a
+          different range of options for a button so that you can choose the one
+          that fits your requirement.
+        </p>
+      </div>
+
+      <div class="component-body">
+        <h4 class="h4">Basic Buttons</h4>
+        <div class="component-example-container">
+          <a class="button button-anchor" href="#">Anchor</a>
+          <button class="button">Button</button>
+          <input class="button" type="submit" value="Input-Submit" />
+        </div>
+        <div class="component-code-snippet">
+          <code> </code>
+        </div>
+
+        <h4>Colored Buttons</h4>
+        <div class="component-example-container">
+          <button class="button primary">Primary</button>
+          <button class="button secondary">Secondary</button>
+          <button class="button success">Success</button>
+          <button class="button info">Info</button>
+          <button class="button warning">Warning</button>
+          <button class="button danger">Danger</button>
+        </div>
+        <div class="component-code-snippet"></div>
+
+        <h4>Inverted Buttons</h4>
+        <div class="component-example-container">
+          <button class="button inverted-primary">Primary</button>
+          <button class="button inverted-secondary">Secondary</button>
+          <button class="button inverted-success">Success</button>
+          <button class="button inverted-info">Info</button>
+          <button class="button inverted-warning">Warning</button>
+          <button class="button inverted-danger">Danger</button>
+        </div>
+        <div class="component-code-snippet"></div>
+
+        <h4>Disabled Buttons</h4>
+        <div class="component-example-container">
+          <button class="button disabled">Disabled</button>
+          <button class="button primary disabled">Primary</button>
+          <button class="button inverted-danger disabled">Disabled</button>
+        </div>
+        <div class="component-code-snippet"></div>
+
+        <h4>Link Buttons</h4>
+        <div class="component-example-container">
+          <a class="button-link p-0p5 secondary-text font-w-700" href="#"
+            >Button Link</a
+          >
+        </div>
+        <div class="component-code-snippet"></div>
+
+        <h4>Icon Buttons</h4>
+        <div class="component-example-container">
+          <i class="fas fa-download button"></i>
+          <i class="fas fa-share-alt button inverted-info"></i>
+        </div>
+        <div class="component-code-snippet"></div>
+
+        <h4>Floating Buttons</h4>
+        <div class="component-example-container">
+          <i class="fas fa-plus button danger floating"></i>
+        </div>
+        <div class="component-code-snippet"></div>
+      </div>
+
+      <!-- ------------------------------ Badge ------------------------------------------ -->
+
+      <div class="component-heading">
+        <h2>Badge</h2>
+        <p>check out all the badges that we have</p>
+      </div>
+
+      <div class="component-body">
+        <h4>Profile Badge</h4>
+        <div class="component-example-container">
+          <div class="badge">
+            <img
+              class="avatar size-lg rounded"
+              src="/images/profile_picture1.jpeg"
+              alt="profile"
+            />
+            <div class="badge-status online"></div>
+          </div>
+
+          <div class="badge">
+            <div class="avatar primary size-md rounded">AS</div>
+            <div class="badge-status danger"></div>
+          </div>
+
+          <div class="badge">
+            <img
+              class="avatar size-sm rounded"
+              src="/images/profile_picture1.jpeg"
+              alt="profile"
+            />
+            <div class="badge-status offline"></div>
+          </div>
+        </div>
+
+        <div class="component-code-snippet"></div>
+
+        <h4>Button Badge</h4>
+        <div class="component-example-container">
+          <button class="button badge">
+            Button <span class="badge-value primary badge-on-left">9</span>
+          </button>
+
+          <button class="button badge">
+            Button <span class="badge-value danger">11</span>
+          </button>
+        </div>
+        <div class="component-code-snippet"></div>
+
+        <h4>Icon Badge</h4>
+        <div class="component-example-container">
+          <i class="fas fa-bell fa-2x badge badge-icon">
+            <span class="badge-value icon-badge danger">7</span>
+          </i>
+        </div>
+        <div class="component-code-snippet"></div>
+      </div>
+
+      <!-- -------------------------------- Cards -------------------------------------- -->
+
+      <div class="component-heading">
+        <h2>Cards</h2>
+        <p>Different cards are shown below</p>
+      </div>
+
+      <div class="component-body">
+        <h4>Vertical card with Badge</h4>
+        <p>If you want to use image</p>
+        <div class="component-example-container">
+          <div class="card-vertical card-shadow">
+            <div class="badge">
               <img
-                class="avatar rounded size-lg"
-                src="/images/profile_picture3.jpeg"
+                class="card-img-vertical"
+                src="/images/profile_picture4.jpeg"
               />
+              <span class="badge-text badge-on-left px-0p5 danger"
+                >50% off</span
+              >
+            </div>
+            <div class="card-details p-1">
+              <div class="title">Clay Craft</div>
+              <p class="subtitle">signature round bottle</p>
+              <div class="card-footer-vertical">
+                <span class="discountedPrice">Rs. 499</span>
+                <span class="originalPrice">Rs. 999</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-vertical card-shadow">
+            <div class="badge">
               <img
-                class="avatar rounded size-md"
+                class="card-img-vertical"
                 src="/images/profile_picture2.jpeg"
               />
-              <img
-                class="avatar rounded size-sm"
-                src="/images/profile_picture4.jpeg"
-              />
+              <span class="badge-text badge-on-left px-0p5 success"
+                >Bestseller</span
+              >
             </div>
-  
-            <div class="component-code-snippet"></div>
-  
-            <h4>Sqaured Avatar</h4>
-            <p>If you want to use image</p>
-            <div class="component-example-container">
-              <img
-                class="avatar squared size-lg"
-                src="/images/profile_picture1.jpeg"
-              />
-              <img
-                class="avatar squared size-md"
-                src="/images/profile_picture4.jpeg"
-              />
-              <img
-                class="avatar squared size-sm"
-                src="/images/profile_picture3.jpeg"
-              />
-            </div>
-            <div class="component-code-snippet"></div>
-  
-            <h4>Named Avatar</h4>
-            <p>If you want to use image</p>
-            <div class="component-example-container">
-                <div class="avatar rounded primary size-lg">AS</div>
-                <div class="avatar squared success size-md">AS</div>
-                <div class="avatar rounded warning size-sm">AS</div>
-            </div>
-            <div class="component-code-snippet"></div>
-        </div>
-
-        <!-- ------------------------------- Button ------------------------------------- -->
-        <div class="component-heading">
-            <h2>Buttons</h2>
-            <p>Button is a trigger that allows user to take action. We have a different range of options for a button so that you can choose the one that fits your requirement.</p>
-        </div>
-
-        <div class="component-body">
-
-            <h4 class="h4">Basic Buttons</h4>
-            <div class="component-example-container">
-                <a class="button button-anchor" href="#">Anchor</a>
-                <button class="button"> Button</button>
-                <input class="button" type="submit" value="Input-Submit"/>
-            </div>
-            <div class="component-code-snippet">
-                <code>
-                    
-                </code>
-            </div>
-
-            <h4>Colored Buttons</h4>
-            <div class="component-example-container">
-                <button class="button primary">Primary</button>
-                <button class="button secondary">Secondary</button>
-                <button class="button success">Success</button>
-                <button class="button info">Info</button>
-                <button class="button warning">Warning</button>
-                <button class="button danger">Danger</button>
-            </div>
-            <div class="component-code-snippet">
-
-            </div>
-
-            <h4>Inverted Buttons</h4>
-            <div class="component-example-container">
-                <button class="button inverted-primary">Primary</button>
-                <button class="button inverted-secondary">Secondary</button>
-                <button class="button inverted-success">Success</button>
-                <button class="button inverted-info">Info</button>
-                <button class="button inverted-warning">Warning</button>
-                <button class="button inverted-danger">Danger</button>
-            </div>
-            <div class="component-code-snippet">
-
-            </div>
-
-            <h4>Disabled Buttons</h4>
-            <div class="component-example-container">
-                <button class="button disabled">Disabled</button>
-                <button class="button primary disabled">Primary</button>
-                <button class="button inverted-danger disabled">Disabled</button>
-            </div>
-            <div class="component-code-snippet">
-
-            </div>
-
-            <h4>Link Buttons</h4>
-            <div class="component-example-container">
-                <a class="button-link p-0p5 secondary-text font-w-700" href="#">Button Link</a>
-            </div>
-            <div class="component-code-snippet">
-
-            </div>
-
-            <h4>Icon Buttons</h4>
-            <div class="component-example-container">
-                <i class="fas fa-download button"></i>
-                <i class="fas fa-share-alt button inverted-info"></i>
-            </div>
-            <div class="component-code-snippet">
-
-            </div>
-
-            <h4>Floating Buttons</h4>
-            <div class="component-example-container">
-                <i class="fas fa-plus button danger floating"></i>
-            </div>
-            <div class="component-code-snippet">
-
-            </div>
-        </div>
-
-        <!-- ------------------------------ Badge ------------------------------------------ -->
-
-        <div class="component-heading">
-            <h2>Badge</h2>
-            <p>check out all the badges that we have</p>
-        </div>
-  
-        <div class="component-body">
-          <h4>Profile Badge</h4>
-            <div class="component-example-container">
-                <div class="badge">
-                  <img
-                    class="avatar size-lg rounded"
-                    src="/images/profile_picture1.jpeg"
-                    alt="profile"
-                  />
-                  <div class="badge-status online"></div>
-                </div>
-  
-                <div class="badge">
-                  <div class="avatar primary size-md rounded">AS</div>
-                  <div class="badge-status danger"></div>
-                </div>
-  
-                <div class="badge">
-                  <img
-                    class="avatar size-sm rounded"
-                    src="/images/profile_picture1.jpeg"
-                    alt="profile"
-                  />
-                  <div class="badge-status offline"></div>
-                </div>
-            </div>
-  
-            <div class="component-code-snippet"></div>
-  
-            <h4>Button Badge</h4>
-            <div class="component-example-container">
-              <button class="button badge">
-                Button <span class="badge-value primary badge-on-left">9</span>
-              </button>
-  
-              <button class="button badge">
-                Button <span class="badge-value danger">11</span>
-              </button>
-            </div>
-            <div class="component-code-snippet"></div>
-  
-            <h4>Icon Badge</h4>
-            <div class="component-example-container">
-              <i class="fas fa-bell fa-2x badge badge-icon">
-                <span class="badge-value icon-badge danger">7</span>
-              </i>
-            </div>
-            <div class="component-code-snippet"></div>
-        
-        </div>
-
-        <!-- -------------------------------- Cards -------------------------------------- -->
-
-        <div class="component-heading">
-          <h2>Cards</h2>
-          <p>Different cards are shown below</p>
-        </div>
-
-        <div class="component-body">
-          <h4>Vertical card with Badge</h4>
-          <p>If you want to use image</p>
-          <div class="component-example-container">
-            <div class="card-vertical card-shadow">
-              <div class="badge">
-                <img class="card-img-vertical" src="/images/profile_picture4.jpeg"/>
-                <span class="badge-text badge-on-left px-0p5 danger">50% off</span>
-              </div>
-              <div class="card-details p-1">
-                <div class="title">Clay Craft</div>
-                <p class="subtitle">signature round bottle</p>
-                <div class="card-footer-vertical">
-                  <span class="discountedPrice">Rs. 499</span>
-                  <span class="originalPrice">Rs. 999</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="card-vertical card-shadow">
-              <div class="badge">
-                <img class="card-img-vertical" src="/images/profile_picture2.jpeg"/>
-                <span class="badge-text badge-on-left px-0p5 success">Bestseller</span>
-              </div>
-              <div class="card-details p-1">
-                <div class="title">Clay Craft</div>
-                <p class="subtitle">signature round bottle</p>
-                <div class="card-footer-vertical">
-                  <span class="discountedPrice">Rs. 499</span>
-                  <span class="originalPrice">Rs. 999</span>
-                </div>
+            <div class="card-details p-1">
+              <div class="title">Clay Craft</div>
+              <p class="subtitle">signature round bottle</p>
+              <div class="card-footer-vertical">
+                <span class="discountedPrice">Rs. 499</span>
+                <span class="originalPrice">Rs. 999</span>
               </div>
             </div>
           </div>
+        </div>
 
-          <div class="component-code-snippet"></div>
+        <div class="component-code-snippet"></div>
 
-          <h4>Horizontal Icon card with dismiss</h4>
-          <p>If you want to use image</p>
-          <div class="component-example-container">
-            <div class="card-horizontal p-1 card-shadow">
-                <div class="badge">
-                  <div class="card-info p-0p5">
-                    <div>
-                      <img class="avatar rounded size-sm" src="/images/profile_picture3.jpeg"/>
-                    </div>
-                    <div class="card-details">
-                      <div class="title">Clay Craft</div>
-                      <div class="subtitle">Clay Craft India Pvt Ltd manufacturers ceramic and bone china crockery products. </div>
-                    </div>
-                  </div>
-                <div class="badge-value"><i class="fas fa-times card-close"></i></div>
-                </div>
-                 
-                <div class="card-footer-horizontal pt-1 mt-1">
-                    <i class="card-icon p-0p5 far fa-heart fa-lg"></i>
-                    <i class="card-icon p-0p5 far fa-comment fa-lg"></i>
-                    <i class="card-icon p-0p5 far fa-share-square fa-lg"></i>
-                </div>
-            </div>
-          </div>
-          <div class="component-code-snippet"></div>
-
-          <h4>Text only card with dismiss</h4>
-          <p>If you want to use image</p>
-          <div class="component-example-container">
-            <div class="card-horizontal text-center card-shadow p-1p5">
-                <div class="badge">
-                <div class="title font-size-lg">Clay Craft</div>
-                <p class="description">Clay Craft India Pvt Ltd manufacturers ceramic and bone china crockery products. The Company offers dinner sets, teapots, kettles, and mugs to individuals and restaurants. Clay Craft India serves customers globally.</p>
-                <div class="badge-value"><i class="fas fa-times card-close"></i></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="component-code-snippet"></div>
-
-
-          <h4>Card with Text Overlay</h4>
-          <p>If you want to use image</p>
-          <div class="component-example-container">
-            <div class="card-horizontal card-shadow">
-              <div class="overlay-container">
-                <img class="card-img-horizontal" src="/images/pottery1.jpeg" alt="picture"/>
-                <span class="card-img-horizontal text-overlay"> 
-                  <i class="fas fa-play"></i> Play</span>
-              </div>
+        <h4>Horizontal Icon card with dismiss</h4>
+        <p>If you want to use image</p>
+        <div class="component-example-container">
+          <div class="card-horizontal p-1 card-shadow">
+            <div class="badge">
               <div class="card-info p-0p5">
                 <div>
-                  <img class="avatar rounded size-sm" src="/images/profile_picture1.jpeg"/>
+                  <img
+                    class="avatar rounded size-sm"
+                    src="/images/profile_picture3.jpeg"
+                  />
                 </div>
-                <div class="card details">
-                  <div class="title">How to make cermaic plates at home</div>
-                  <div class="subtitle">Clay Craft</div>
+                <div class="card-details">
+                  <div class="title">Clay Craft</div>
+                  <div class="subtitle">
+                    Clay Craft India Pvt Ltd manufacturers ceramic and bone
+                    china crockery products.
+                  </div>
                 </div>
+              </div>
+              <div class="badge-value">
+                <i class="fas fa-times card-close"></i>
+              </div>
+            </div>
+
+            <div class="card-footer-horizontal pt-1 mt-1">
+              <i class="card-icon p-0p5 far fa-heart fa-lg"></i>
+              <i class="card-icon p-0p5 far fa-comment fa-lg"></i>
+              <i class="card-icon p-0p5 far fa-share-square fa-lg"></i>
+            </div>
+          </div>
+        </div>
+        <div class="component-code-snippet"></div>
+
+        <h4>Text only card with dismiss</h4>
+        <p>If you want to use image</p>
+        <div class="component-example-container">
+          <div class="card-horizontal text-center card-shadow p-1p5">
+            <div class="badge">
+              <div class="title font-size-lg">Clay Craft</div>
+              <p class="description">
+                Clay Craft India Pvt Ltd manufacturers ceramic and bone china
+                crockery products. The Company offers dinner sets, teapots,
+                kettles, and mugs to individuals and restaurants. Clay Craft
+                India serves customers globally.
+              </p>
+              <div class="badge-value">
+                <i class="fas fa-times card-close"></i>
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div class="component-code-snippet"></div>
 
-          <div class="component-code-snippet"></div>
+      <h4>Card with Text Overlay</h4>
+      <p>If you want to use image</p>
+      <div class="component-example-container">
+        <div class="card-horizontal card-shadow">
+          <div class="overlay-container">
+            <img
+              class="card-img-horizontal"
+              src="/images/pottery1.jpeg"
+              alt="picture"
+            />
+            <span class="card-img-horizontal text-overlay">
+              <i class="fas fa-play"></i> Play</span
+            >
+          </div>
+          <div class="card-info p-0p5">
+            <div>
+              <img
+                class="avatar rounded size-sm"
+                src="/images/profile_picture1.jpeg"
+              />
+            </div>
+            <div class="card details">
+              <div class="title">How to make cermaic plates at home</div>
+              <div class="subtitle">Clay Craft</div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-        <!-- -------------------------- Image ------------------------ -->
+      <div class="component-code-snippet"></div>
 
-        <div class="component-heading">
-          <h2>Responsive Image</h2>
+      <!-- -------------------------- Image ------------------------ -->
+
+      <div class="component-heading">
+        <h2>Responsive Image</h2>
+      </div>
+
+      <div class="component-body">
+        <h4>Image</h4>
+        <div class="component-example-container">
+          <div class="img-container">
+            <img
+              class="img-responsive"
+              src="/images/pottery2.jpeg"
+              alt="responsive-image"
+            />
+          </div>
+        </div>
+        <div class="component-code-snippet"></div>
+
+        <h4>Rounded Image</h4>
+        <div class="component-example-container">
+          <img
+            class="img-responsive img-rounded"
+            src="/images/cup1.jpg"
+            alt="responsive-image"
+          />
+        </div>
+        <div class="component-code-snippet"></div>
+
+        <h4>Squared Image</h4>
+        <div class="component-example-container">
+          <img
+            class="img-responsive img-squared"
+            src="/images/cup1.jpg"
+            alt="responsive-image"
+          />
+        </div>
+        <div class="component-code-snippet"></div>
+      </div>
+
+      <!-- ------------------------------------------ Input ------------------------------------ -->
+
+      <div class="component-heading">
+        <h2>Input</h2>
+      </div>
+
+      <div class="component-body">
+        <h4>Basic Input</h4>
+        <div class="component-example-container" style="display: block">
+          <div class="input-field my-1p5 mx-auto">
+            <input class="input" type="text" value="Apurva" required />
+            <span class="bar"></span>
+            <label class="placeholder">Enter Name</label>
+          </div>
+        </div>
+        <div class="component-code-snippet"></div>
+
+        <h4>Input with error</h4>
+        <div class="component-example-container" style="display: block">
+          <div class="input-field my-1p5 mx-auto">
+            <input class="input error" type="text" required />
+            <span class="bar"></span>
+            <label class="placeholder">Enter Email ID</label>
+            <span class="error-msg">Please enter valid Email ID</span>
+          </div>
+        </div>
+        <div class="component-code-snippet"></div>
+
+        <h4>Textarea</h4>
+        <div class="component-example-container" style="display: block">
+          <div class="input-field my-1p5 mx-auto">
+            <textarea class="input textarea" type="text" required></textarea>
+            <span class="bar"></span>
+            <label class="placeholder">Textarea</label>
+          </div>
+        </div>
+        <div class="component-code-snippet"></div>
+      </div>
+
+      <!-- ----------------Modal----------------- -->
+
+      <div class="component-heading">
+        <h2>Modal</h2>
+      </div>
+
+      <div class="component-body">
+        <h4>Simple Modal</h4>
+        <div class="component-example-container">
+          <div class="modal border-1 mx-auto m-1p5">
+            <div class="modal-heading border-bottom-1">Modal Heading</div>
+            <div class="modal-body p-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
+              nobis totam error laudantium cupiditate iusto harum excepturi
+              quisquam tempore nam.
+            </div>
+            <div class="border-top-1 text-right p-1">
+              <button class="button basic mx-1">Cancel</button>
+              <button class="button primary mx-1">Save</button>
+            </div>
+          </div>
         </div>
 
-        <div class="component-body">
-          <h4>Image</h4>
-          <div class="component-example-container">
-            <div class="img-container">
-              <img class="img-responsive" src="/images/pottery2.jpeg" alt="responsive-image"/>
+        <h4>Demo</h4>
+        <div class="component-example-container">
+          <button class="button primary basic-modal-demo">Modal Demo</button>
+          <div class="basic-modal">
+            <div class="modal border-1 mx-auto m-1p5">
+              <div class="modal-heading border-bottom-1">Modal Heading</div>
+              <div class="modal-body p-2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
+                nobis totam error laudantium cupiditate iusto harum excepturi
+                quisquam tempore nam.
+              </div>
+              <div class="border-top-1 text-right p-1">
+                <button class="button basic mx-1 basic-modal-cancel">Cancel</button>
+                <button class="button primary mx-1">Save</button>
+              </div>
             </div>
           </div>
-          <div class="component-code-snippet"></div>
-
-          <h4>Rounded Image</h4>
-          <div class="component-example-container">
-            <img class="img-responsive img-rounded" src="/images/cup1.jpg" alt="responsive-image"/>
-          </div>
-          <div class="component-code-snippet"></div>
-
-          <h4>Squared Image</h4>
-          <div class="component-example-container">
-            <img class="img-responsive img-squared" src="/images/cup1.jpg" alt="responsive-image"/>
-          </div>
-          <div class="component-code-snippet"></div>
-
         </div>
 
+        <h4>Form Modal</h4>
+        <div class="component-example-container">
+          <div class="modal border-1 m-1p5 p-1">
+            <div class="badge">
+              <div class="modal-heading text-center">LOG IN</div>
+              <div class="modal-body">
+                <div class="input-field my-2 mx-auto">
+                  <input
+                    class="input"
+                    type="email"
+                    value="apurva.sawant@gmail.com"
+                    required
+                  />
+                  <span class="bar"></span>
+                  <label class="placeholder">Enter Email</label>
+                </div>
 
-        <!-- ------------------------------------------ Input ------------------------------------ -->
-
-        <div class="component-heading">
-          <h2>Input</h2>
+                <div class="input-field my-1p5 mx-auto">
+                  <input class="input" type="password" required />
+                  <span class="bar"></span>
+                  <label class="placeholder">Password</label>
+                </div>
+              </div>
+              <div class="badge-value">
+                <i class="fas fa-times card-close"></i>
+              </div>
+            </div>
+            <div class="text-center">
+              <button class="button primary m-1">Login</button>
+              <p class="text-center">
+                New user? Create your account
+                <a class="secondary-text font-w-700" href="#">here</a>
+              </p>
+            </div>
+          </div>
         </div>
 
-        <div class="component-body">
-          <h4>Basic Input</h4>
-          <div class="component-example-container" style="display: block;">
-            <div class="input-field my-1p5 mx-auto">
-              <input class="input" type="text" value="Apurva" required/>
-              <span class="bar"></span>
-              <label class="placeholder">Enter Name</label>
+        <h4>Form Modal Demo</h4>
+        <div class="component-example-container">
+          <button class="button primary form-modal-demo">Form Modal Demo</button>
+          <div class="form-modal">
+            <div class="modal border-1 mx-auto m-1p5 p-1">
+              <div class="badge">
+                <div class="modal-heading text-center">LOG IN</div>
+                <div class="modal-body">
+                  <div class="input-field my-2 mx-auto">
+                    <input
+                      class="input"
+                      type="email"
+                      value="apurva.sawant@gmail.com"
+                      required
+                    />
+                    <span class="bar"></span>
+                    <label class="placeholder">Enter Email</label>
+                  </div>
+  
+                  <div class="input-field my-1p5 mx-auto">
+                    <input class="input" type="password" required />
+                    <span class="bar"></span>
+                    <label class="placeholder">Password</label>
+                  </div>
+                </div>
+                <div class="badge-value">
+                  <i class="fas fa-times form-modal-close card-close"></i>
+                </div>
+              </div>
+              <div class="text-center">
+                <button class="button primary m-1">Login</button>
+                <p class="text-center">
+                  New user? Create your account
+                  <a class="secondary-text font-w-700" href="#">here</a>
+                </p>
+              </div>
             </div>
           </div>
-          <div class="component-code-snippet"></div>
+        </div>
+      </div>
 
-          <h4>Input with error</h4>
-          <div class="component-example-container" style="display: block;">
-            <div class="input-field my-1p5 mx-auto">
-              <input class="input error" type="text" required/>
-              <span class="bar"></span>
-              <label class="placeholder">Enter Email ID</label>
-              <span class="error-msg">Please enter valid Email ID</span>
-            </div>
-          </div>
-          <div class="component-code-snippet"></div>
+      <!-- --------------------list---------------- -->
+      <div class="component-heading">
+        <h2>List</h2>
+      </div>
 
-          <h4>Textarea</h4>
-          <div class="component-example-container" style="display: block;">
-            <div class="input-field my-1p5 mx-auto">
-              <textarea class="input textarea" type="text" required></textarea>
-              <span class="bar"></span>
-              <label class="placeholder">Textarea</label>
-            </div>
-          </div>
-          <div class="component-code-snippet"></div>
+      <div class="component-body">
+        <h4>Unordered list</h4>
+        <ul class="list-group">
+          <li class="list-group-item">First list item</li>
+          <li class="list-group-item">Second list item</li>
+          <li class="list-group-item">Third list item</li>
+          <li class="list-group-item">Fourth list item</li>
+        </ul>
+
+        <h4>Colored item to show them as active</h4>
+        <ul class="list-group">
+          <li class="list-group-item primary">First list item</li>
+          <li class="list-group-item">Second list item</li>
+          <li class="list-group-item info">Third list item</li>
+          <li class="list-group-item">Fourth list item</li>
+        </ul>
+
+        <h4>Disabled item</h4>
+        <ul class="list-group">
+          <li class="list-group-item disabled-item">
+            First list item (Disabled)
+          </li>
+          <li class="list-group-item">Second list item</li>
+          <li class="list-group-item">Third list item</li>
+          <li class="list-group-item">Fourth list item</li>
+        </ul>
+
+        <h4>Ordered List</h4>
+        <ol class="list-group list-group-roman">
+          <li class="list-group-item disabled-item">
+            First list item (Disabled)
+          </li>
+          <li class="list-group-item">Second list item</li>
+          <li class="list-group-item">Third list item</li>
+          <li class="list-group-item">Fourth list item</li>
+        </ol>
+
+        <ol class="list-group list-group-alpha">
+          <li class="list-group-item">First list item</li>
+          <li class="list-group-item info-text font-w-700">
+            Second list item (Colored bold)
+          </li>
+          <li class="list-group-item danger-text">Third list item (Colored)</li>
+          <li class="list-group-item">Fourth list item</li>
+        </ol>
+      </div>
+
+      <!-- --------------Rating-------------- -->
+      <h2>Rating</h2>
+      <div class="component-example-container">
+        <div class="rating-group">
+          <label aria-label="1 star" class="rating-label" for="rating-1"
+            ><i class="rating-icon rating-icon--star fa fa-star"></i
+          ></label>
+          <input
+            class="rating-input"
+            name="rating"
+            id="rating-1"
+            value="1"
+            type="radio"
+          />
+          <label aria-label="2 stars" class="rating-label" for="rating-2"
+            ><i class="rating-icon rating-icon--star fa fa-star"></i
+          ></label>
+          <input
+            checked
+            class="rating-input"
+            name="rating"
+            id="rating-2"
+            value="2"
+            type="radio"
+          />
+          <label aria-label="3 stars" class="rating-label" for="rating-3"
+            ><i class="rating-icon rating-icon--star fa fa-star"></i
+          ></label>
+          <input
+            class="rating-input"
+            name="rating"
+            id="rating-3"
+            value="3"
+            type="radio"
+          />
+          <label aria-label="4 stars" class="rating-label" for="rating-4"
+            ><i class="rating-icon rating-icon--star fa fa-star"></i
+          ></label>
+          <input
+            class="rating-input"
+            name="rating"
+            id="rating-4"
+            value="4"
+            type="radio"
+          />
+          <label aria-label="5 stars" class="rating-label" for="rating-5"
+            ><i class="rating-icon rating-icon--star fa fa-star"></i
+          ></label>
+          <input
+            class="rating-input"
+            name="rating"
+            id="rating-5"
+            value="5"
+            type="radio"
+          />
+        </div>
+      </div>
+
+      <div class="component-example-container">
+        <div class="thumb-group gap-2">
+          <input
+            checked
+            type="radio"
+            class="thumb-rating"
+            name="thumb-rating"
+            id="thumbs-up"
+            value="like"
+          />
+          <label class="like" for="thumbs-up">
+            <i class="fa fa-thumbs-up fa-3x" aria-hidden="true"></i>
+            <legend class="mt-1">Like it</legend>
+          </label>
+
+          <input
+            type="radio"
+            class="thumb-rating"
+            name="thumb-rating"
+            id="thumbs-down"
+            value="dislike"
+          />
+          <label class="dislike" for="thumbs-down">
+            <i class="fa fa-thumbs-down fa-3x" aria-hidden="true"></i>
+            <legend class="mt-1">Hate it</legend>
+          </label>
+        </div>
+      </div>
+
+      <div class="component-example-container">
+        <div class="face-group gap-1">
+          <input
+            checked
+            type="radio"
+            class="face-rating"
+            name="face-rating"
+            id="excellent"
+            value="excellent"
+          />
+          <label class="excellent text-center" for="excellent">
+            <div class="font-s-2">&#128525;</div>
+            <legend class="m-0p5">Excellent</legend>
+          </label>
+
+          <input
+            type="radio"
+            class="face-rating"
+            name="face-rating"
+            id="good"
+            value="good"
+          />
+          <label class="good text-center" for="good">
+            <div class="font-s-2">&#128516;</div>
+            <legend class="m-0p5">Good</legend>
+          </label>
+
+          <input
+            type="radio"
+            class="face-rating"
+            name="face-rating"
+            id="okay"
+            value="okay"
+          />
+          <label class="okay text-center" for="okay">
+            <div class="font-s-2">&#128577;</div>
+            <legend class="m-0p5">Okay</legend>
+          </label>
+
+          <input
+            type="radio"
+            class="face-rating"
+            name="face-rating"
+            id="bad"
+            value="bad"
+          />
+          <label class="bad text-center" for="bad">
+            <div class="font-s-2">&#128545;</div>
+            <legend class="m-0p5">Bad</legend>
+          </label>
         </div>
       </div>
     </div>
-</body>
+    <script src="/script.js"></script>
+  </body>
 </html>

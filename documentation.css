@@ -29,4 +29,10 @@
   .component-heading{
     padding: 2rem 0;
   }
+
+  .component-body > ul, .component-body > ol {
+    max-width: 40rem;
+    margin: 2rem 0;
+
+  }
   
