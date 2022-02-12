@@ -20,7 +20,7 @@
     flex-wrap: wrap-reverse;
 }
 
-/* ----------- alignement------------ */
+/* ----------- alignment------------ */
 
 .items-center {
     align-items: center;
@@ -40,4 +40,21 @@
 
 .items-stretch {
     align-items: stretch;
+}
+
+/* ------------------flex gap--------------------------- */
+.gap-0p5{
+    gap: 0.5rem;
+}
+
+.gap-1 {
+    gap: 1rem;
+}
+
+.gap-1p5 {
+    gap: 1.5rem;
+}
+
+.gap-2{
+    gap: 2rem;
 }

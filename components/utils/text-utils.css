@@ -10,6 +10,10 @@
     font-size: 1.4rem !important;
 }
 
+.font-s-2 {
+    font-size: 2rem;
+}
+
 /* ----------------- font-weight------------- */
 .font-w-300 {
     font-weight: 300;
