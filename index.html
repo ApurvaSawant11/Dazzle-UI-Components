@@ -183,7 +183,7 @@
 
         <h4>Link Buttons</h4>
         <div class="component-example-container">
-          <a class="button-link p-0p5 secondary-text font-w-700" href="#"
+          <a class="button-link p-0p5 secondary-text fw-700" href="#"
             >Button Link</a
           >
         </div>
@@ -514,7 +514,9 @@
                 quisquam tempore nam.
               </div>
               <div class="border-top-1 text-right p-1">
-                <button class="button basic mx-1 basic-modal-cancel">Cancel</button>
+                <button class="button basic mx-1 basic-modal-cancel">
+                  Cancel
+                </button>
                 <button class="button primary mx-1">Save</button>
               </div>
             </div>
@@ -552,7 +554,7 @@
               <button class="button primary m-1">Login</button>
               <p class="text-center">
                 New user? Create your account
-                <a class="secondary-text font-w-700" href="#">here</a>
+                <a class="secondary-text fw-700" href="#">here</a>
               </p>
             </div>
           </div>
@@ -560,7 +562,9 @@
 
         <h4>Form Modal Demo</h4>
         <div class="component-example-container">
-          <button class="button primary form-modal-demo">Form Modal Demo</button>
+          <button class="button primary form-modal-demo">
+            Form Modal Demo
+          </button>
           <div class="form-modal">
             <div class="modal border-1 mx-auto m-1p5 p-1">
               <div class="badge">
@@ -576,7 +580,7 @@
                     <span class="bar"></span>
                     <label class="placeholder">Enter Email</label>
                   </div>
-  
+
                   <div class="input-field my-1p5 mx-auto">
                     <input class="input" type="password" required />
                     <span class="bar"></span>
@@ -591,7 +595,7 @@
                 <button class="button primary m-1">Login</button>
                 <p class="text-center">
                   New user? Create your account
-                  <a class="secondary-text font-w-700" href="#">here</a>
+                  <a class="secondary-text fw-700" href="#">here</a>
                 </p>
               </div>
             </div>
@@ -643,7 +647,7 @@
 
         <ol class="list-group list-group-alpha">
           <li class="list-group-item">First list item</li>
-          <li class="list-group-item info-text font-w-700">
+          <li class="list-group-item info-text fw-700">
             Second list item (Colored bold)
           </li>
           <li class="list-group-item danger-text">Third list item (Colored)</li>
@@ -739,7 +743,7 @@
       </div>
 
       <div class="component-example-container">
-        <div class="face-group gap-1">
+        <div class="face-group gap-1 my-1">
           <input
             checked
             type="radio"
@@ -749,7 +753,7 @@
             value="excellent"
           />
           <label class="excellent text-center" for="excellent">
-            <div class="font-s-2">&#128525;</div>
+            <div class="text-3xl">&#128525;</div>
             <legend class="m-0p5">Excellent</legend>
           </label>
 
@@ -761,7 +765,7 @@
             value="good"
           />
           <label class="good text-center" for="good">
-            <div class="font-s-2">&#128516;</div>
+            <div class="text-3xl">&#128516;</div>
             <legend class="m-0p5">Good</legend>
           </label>
 
@@ -773,7 +777,7 @@
             value="okay"
           />
           <label class="okay text-center" for="okay">
-            <div class="font-s-2">&#128577;</div>
+            <div class="text-3xl">&#128577;</div>
             <legend class="m-0p5">Okay</legend>
           </label>
 
@@ -785,9 +789,143 @@
             value="bad"
           />
           <label class="bad text-center" for="bad">
-            <div class="font-s-2">&#128545;</div>
+            <div class="text-3xl">&#128545;</div>
             <legend class="m-0p5">Bad</legend>
           </label>
+        </div>
+      </div>
+      <!-- ---------------------------Grid------------------------- -->
+
+      <div class="component-heading">
+        <h2>Grid</h2>
+      </div>
+
+      <div class="component-body">
+        <h4>Two Columns</h4>
+        <div class="component-example-container">
+          <div class="border-2 grid grid-cols-2 radius-4px p-0p5">
+            <div class="primary radius-4px mx-0p5 p-1">Grid Item One</div>
+            <div class="primary radius-4px mx-0p5 p-1">Grid Item Two</div>
+          </div>
+        </div>
+
+        <h4>Three Columns</h4>
+        <div class="component-example-container">
+          <div class="border-2 grid grid-cols-3 radius-4px p-0p5">
+            <div class="secondary-bg radius-4px fw-700 mx-0p5 p-1">Grid Item One</div>
+            <div class="secondary-bg radius-4px fw-700 mx-0p5 p-1">Grid Item Two</div>
+            <div class="secondary-bg radius-4px fw-700 mx-0p5 p-1">
+              Grid Item Three
+            </div>
+          </div>
+        </div>
+
+        <h4>Two Rows</h4>
+        <div class="component-example-container">
+          <div class="border-2 grid grid-rows-2 radius-4px p-0p5">
+            <div class="primary radius-4px my-0p5 p-1">Grid Item One</div>
+            <div class="primary radius-4px my-0p5 p-1">Grid Item Two</div>
+          </div>
+        </div>
+
+        <h4>Three Rows</h4>
+        <div class="component-example-container">
+          <div class="border-2 grid grid-rows-3 radius-4px p-0p5">
+            <div class="secondary-bg radius-4px fw-700 my-0p5 p-1">Grid Item One</div>
+            <div class="secondary-bg radius-4px fw-700 my-0p5 p-1">Grid Item Two</div>
+            <div class="secondary-bg radius-4px fw-700 my-0p5 p-1">
+              Grid Item Three
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- -----------------Toast---------------------- -->
+      <div class="component-heading">
+        <h2>Toast</h2>
+      </div>
+
+      <div class="component-body">
+        <h4>Simple Toast</h4>
+        <div class="component-example-container">
+          <div class="toast px-1p5 py-1">
+            <div class="badge">
+              <h6>New Notification from Stars!</h6>
+
+              <p class="toast-msg">
+                Buy best ceramic pots and planters by STARS at
+                <a
+                  class="secondary-text fw-700"
+                  href="https:/dazzle-cerashop.netlify.app"
+                  >Dazzle Cerashop</a
+                >
+              </p>
+
+              <div class="badge-value">
+                <i class="fas fa-times card-close"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h4>Simple Toast Demo</h4>
+        <div class="component-example-container">
+          <button class="button primary simple-toast-demo">
+            Simple Toast Demo
+          </button>
+          <div class="simple-toast-container">
+            <div class="toast px-1p5 py-1">
+              <div class="badge">
+                <h6>New Notification from Stars!</h6>
+
+                <p class="toast-msg">
+                  Buy best ceramic pots and planters by STARS at
+                  <a
+                    class="secondary-text fw-700"
+                    href="https:/dazzle-cerashop.netlify.app"
+                    >Dazzle Cerashop</a
+                  >
+                </p>
+
+                <div class="badge-value">
+                  <i class="fas fa-times simple-toast-close"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h4>Icon Toast</h4>
+        <div class="component-example-container">
+          <div class="toast flex-row items-center gap-1 p-1p5">
+            <img src="/images/wifi-solid.svg" />
+            <div class="toast-content">
+              <div class="title">You're connected to Wifi</div>
+              <div class="subtitle">Enjoy your stay here!</div>
+            </div>
+            <button class="button-reset ml-auto toast-close">
+              <i class="fas fa-times"></i>
+            </button>
+          </div>
+        </div>
+
+        <h4>Icon Toast Demo</h4>
+        <div class="component-example-container">
+          <button class="button primary icon-toast-demo">
+            Icon Toast Demo
+          </button>
+          <div class="icon-toast-container">
+            <div class="toast flex-row items-center gap-1 p-1p5">
+              <img src="/images/wifi-solid.svg" />
+              <div class="toast-content">
+                <div class="title">You're connected to Wifi</div>
+                <div class="subtitle">Enjoy your stay here!</div>
+              </div>
+              <button class="button-reset ml-auto icon-toast-close">
+                <i class="fas fa-times"></i>
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </div>

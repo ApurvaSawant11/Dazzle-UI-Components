@@ -1,5 +1,5 @@
 .modal {
-    background: var(--white);
+    background: var(--white-color);
     border-radius: 4px;
     min-width: 30rem;
     max-width: 35rem;
@@ -25,8 +25,4 @@
 
 .modal-body {
     font-size: 1.1rem;
-}
-
-.show {
-    display: block;
 }

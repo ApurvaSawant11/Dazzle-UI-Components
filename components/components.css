@@ -15,12 +15,14 @@
 @import "./badge.css";
 @import "./button.css";
 @import "./card.css";
+@import "./grid.css";
 
 @import "./image.css";
 @import "./input.css";
 @import "./list.css";
 @import "./modal.css";
 @import "./rating.css";
+@import "./toast.css";
 
 * {
   margin: 0;
@@ -37,20 +39,20 @@
   --primary-hover: #133e64;
   --secondary: #16c79a;
   --secondary-hover: #0eb98f;
-  --black: #313131;
-  --dark-black:#000000;
-  --white: #ffffff;
+  --light-black: #313131;
+  --dark-black: #000000;
+  --white-color: #ffffff;
   --light-gray: #f0f0f0;
-  --dark-gray:#6e6e6e;
+  --dark-gray: #6e6e6e;
   --success: #52e252;
-  --success-text:#025002;
+  --success-text: #025002;
   --info: #1863c5;
   --warning: #f7cc42;
   --warning-text: #764605;
   --danger: #fc2424;
   --border-color: #dddddd;
-  --shadow:#acacac;
-  --card-button:#f0fffb;
+  --shadow: #acacac;
+  --card-button: #f0fffb;
   --overlay: rgba(0, 0, 0, 0.6);
 }
 
@@ -59,9 +61,13 @@ html {
 }
 
 body {
-  color: var(--black);
+  color: var(--light-black);
 }
 
 iframe {
   width: 100% !important;
+}
+
+.show {
+  display: block;
 }

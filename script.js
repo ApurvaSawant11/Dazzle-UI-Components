@@ -5,18 +5,48 @@ const formModal = document.querySelector('.form-modal');
 const basicModalCancel = document.querySelector('.basic-modal-cancel');
 const formModalClose = document.querySelector('.form-modal-close')
 
+
+const toggleShowClass = (element) => {
+    element.classList.toggle('show');
+}
+
+
 basicModalBtn.addEventListener('click', () => {
-    basicModal.classList.add('show')
+    toggleShowClass(basicModal);
 })
 
 basicModalCancel.addEventListener('click', () => {
-    basicModal.classList.remove('show')
+    toggleShowClass(basicModal)
 })
 
 formModalBtn.addEventListener('click', () => {
-    formModal.classList.add('show')
+    toggleShowClass(formModal)
 })
 
 formModalClose.addEventListener('click', () => {
-    formModal.classList.remove('show')
+    toggleShowClass(formModal)
 })
+
+// ----------- toast js --------------
+
+const simpleToastDemo = document.querySelector('.simple-toast-demo');
+const simpleToast = document.querySelector(".simple-toast-container");
+const simpleToastClose = document.querySelector('.simple-toast-close');
+
+const iconToastDemo = document.querySelector('.icon-toast-demo');
+const iconToast = document.querySelector(".icon-toast-container");
+const iconToastClose = document.querySelector('.icon-toast-close');
+
+simpleToastDemo.addEventListener('click', () => {
+    toggleShowClass(simpleToast)
+    setTimeout(() => toggleShowClass(simpleToast), 3000);
+});
+
+simpleToastClose.addEventListener('click', () => toggleShowClass(simpleToast))
+
+iconToastDemo.addEventListener('click', () => {
+    toggleShowClass(iconToast)
+    setTimeout(() => toggleShowClass(iconToast), 3000);
+});
+
+iconToastClose.addEventListener('click', () => toggleShowClass(iconToast))

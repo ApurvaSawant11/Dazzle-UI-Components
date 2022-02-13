@@ -2,12 +2,12 @@
 
 .primary {
   background-color: var(--primary);
-  color: var(--white);
+  color: var(--white-color);
 }
 
-.secondary{
+.secondary {
   background-color: var(--secondary);
-  color: var(--white);
+  color: var(--white-color);
 }
 
 .success {
@@ -17,7 +17,7 @@
 
 .info {
   background-color: var(--info);
-  color: var(--white);
+  color: var(--white-color);
 }
 
 .warning {
@@ -27,7 +27,7 @@
 
 .danger {
   background-color: var(--danger);
-  color: var(--white);
+  color: var(--white-color);
 }
 
 /* --------------- text-color ------------ */
@@ -37,7 +37,7 @@
 }
 
 .secondary-text {
-    color: var(--secondary);
+  color: var(--secondary);
 }
 
 .success-text {
@@ -59,6 +59,7 @@
 .dark-gray-text {
   color: var(--dark-gray);
 }
+
 /* ------------------bg-color----------------- */
 
 .basic-bg {
@@ -67,6 +68,10 @@
 
 .primary-bg {
   background-color: var(--primary);
+}
+
+.secondary-bg {
+  background-color: var(--secondary);
 }
 
 .success-bg {
@@ -83,4 +88,8 @@
 
 .danger-bg {
   background-color: var(--danger);
+}
+
+.border-color-bg {
+  background-color: var(--border-color);
 }

@@ -137,7 +137,7 @@
     top: 0;
     opacity: 0;
     transition: opacity 0.5s;
-    color: var(--white);
+    color: var(--white-color);
 }
 
 .overlay-container:hover .text-overlay {

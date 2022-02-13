@@ -1,0 +1,21 @@
+.toast {
+    background: var(--white-color);
+    border-radius: 4px;
+    box-shadow: 1px 1px 10px var(--shadow);
+    width: 25rem;
+}
+
+.toast-close, .icon-toast-close {
+    border-radius: 50%;
+    background: var(--border-color);
+    padding: 0.25rem 0.65rem;
+}
+
+.simple-toast-container,
+.icon-toast-container {
+    display: none;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    z-index: 1;
+}
