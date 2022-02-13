@@ -1,5 +1,5 @@
 .toast {
-    background: var(--white);
+    background: var(--white-color);
     border-radius: 4px;
     box-shadow: 1px 1px 10px var(--shadow);
     width: 25rem;

@@ -17,8 +17,8 @@
 }
 
 .button-anchor {
-    color: black;
-    background-color: #efefef;
+    color: var(--dark-black);
+    background-color: var(--basic);
 }
 
 .button-link {
@@ -39,7 +39,7 @@
 .inverted-primary:focus {
     background-color: var(--primary);
     border: 1px solid var(--primary);
-    color: var(--white);
+    color: var(--white-color);
 }
 
 .inverted-secondary {
@@ -52,7 +52,7 @@
 .inverted-secondary:focus {
     background-color: var(--secondary);
     border: 1px solid var(--secondary);
-    color: var(--white);
+    color: var(--white-color);
 }
 
 .inverted-success {
@@ -78,7 +78,7 @@
 .inverted-info:focus {
     background-color: var(--info);
     border: 1px solid var(--info);
-    color: var(--white);
+    color: var(--white-color);
 }
 
 .inverted-warning {
@@ -104,7 +104,7 @@
 .inverted-danger:focus {
     background-color: var(--danger);
     border: 1px solid var(--danger);
-    color: var(--white);
+    color: var(--white-color);
 }
 
 /* ---------------- Disabled Button ------------- */

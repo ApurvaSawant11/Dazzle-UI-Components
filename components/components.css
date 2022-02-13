@@ -39,9 +39,9 @@
   --primary-hover: #133e64;
   --secondary: #16c79a;
   --secondary-hover: #0eb98f;
-  --black: #313131;
+  --light-black: #313131;
   --dark-black: #000000;
-  --white: #ffffff;
+  --white-color: #ffffff;
   --light-gray: #f0f0f0;
   --dark-gray: #6e6e6e;
   --success: #52e252;
@@ -61,7 +61,7 @@ html {
 }
 
 body {
-  color: var(--black);
+  color: var(--light-black);
 }
 
 iframe {
