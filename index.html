@@ -514,7 +514,9 @@
                 quisquam tempore nam.
               </div>
               <div class="border-top-1 text-right p-1">
-                <button class="button basic mx-1 basic-modal-cancel">Cancel</button>
+                <button class="button basic mx-1 basic-modal-cancel">
+                  Cancel
+                </button>
                 <button class="button primary mx-1">Save</button>
               </div>
             </div>
@@ -560,7 +562,9 @@
 
         <h4>Form Modal Demo</h4>
         <div class="component-example-container">
-          <button class="button primary form-modal-demo">Form Modal Demo</button>
+          <button class="button primary form-modal-demo">
+            Form Modal Demo
+          </button>
           <div class="form-modal">
             <div class="modal border-1 mx-auto m-1p5 p-1">
               <div class="badge">
@@ -576,7 +580,7 @@
                     <span class="bar"></span>
                     <label class="placeholder">Enter Email</label>
                   </div>
-  
+
                   <div class="input-field my-1p5 mx-auto">
                     <input class="input" type="password" required />
                     <span class="bar"></span>
@@ -788,6 +792,140 @@
             <div class="font-s-2">&#128545;</div>
             <legend class="m-0p5">Bad</legend>
           </label>
+        </div>
+      </div>
+      <!-- ---------------------------Grid------------------------- -->
+
+      <div class="component-heading">
+        <h2>Grid</h2>
+      </div>
+
+      <div class="component-body">
+        <h4>Two Columns</h4>
+        <div class="component-example-container">
+          <div class="border-2 grid grid-cols-2 p-0p5">
+            <div class="primary mx-0p5 p-1">Grid Item One</div>
+            <div class="primary mx-0p5 p-1">Grid Item Two</div>
+          </div>
+        </div>
+
+        <h4>Three Columns</h4>
+        <div class="component-example-container">
+          <div class="border-2 grid grid-cols-3 p-0p5">
+            <div class="secondary-bg font-w-700 mx-0p5 p-1">Grid Item One</div>
+            <div class="secondary-bg font-w-700 mx-0p5 p-1">Grid Item Two</div>
+            <div class="secondary-bg font-w-700 mx-0p5 p-1">
+              Grid Item Three
+            </div>
+          </div>
+        </div>
+
+        <h4>Two Rows</h4>
+        <div class="component-example-container">
+          <div class="border-2 grid grid-rows-2 p-0p5">
+            <div class="primary my-0p5 p-1">Grid Item One</div>
+            <div class="primary my-0p5 p-1">Grid Item Two</div>
+          </div>
+        </div>
+
+        <h4>Three Rows</h4>
+        <div class="component-example-container">
+          <div class="border-2 grid grid-rows-3 p-0p5">
+            <div class="secondary-bg font-w-700 my-0p5 p-1">Grid Item One</div>
+            <div class="secondary-bg font-w-700 my-0p5 p-1">Grid Item Two</div>
+            <div class="secondary-bg font-w-700 my-0p5 p-1">
+              Grid Item Three
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- -----------------Toast---------------------- -->
+      <div class="component-heading">
+        <h2>Toast</h2>
+      </div>
+
+      <div class="component-body">
+        <h4>Simple Toast</h4>
+        <div class="component-example-container">
+          <div class="toast px-1p5 py-1">
+            <div class="badge">
+              <h6>New Notification from Stars!</h6>
+
+              <p class="toast-msg">
+                Buy best ceramic pots and planters by STARS at
+                <a
+                  class="secondary-text font-w-700"
+                  href="https:/dazzle-cerashop.netlify.app"
+                  >Dazzle Cerashop</a
+                >
+              </p>
+
+              <div class="badge-value">
+                <i class="fas fa-times card-close"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h4>Simple Toast Demo</h4>
+        <div class="component-example-container">
+          <button class="button primary simple-toast-demo">
+            Simple Toast Demo
+          </button>
+          <div class="simple-toast-container">
+            <div class="toast px-1p5 py-1">
+              <div class="badge">
+                <h6>New Notification from Stars!</h6>
+
+                <p class="toast-msg">
+                  Buy best ceramic pots and planters by STARS at
+                  <a
+                    class="secondary-text font-w-700"
+                    href="https:/dazzle-cerashop.netlify.app"
+                    >Dazzle Cerashop</a
+                  >
+                </p>
+
+                <div class="badge-value">
+                  <i class="fas fa-times simple-toast-close"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h4>Icon Toast</h4>
+        <div class="component-example-container">
+          <div class="toast flex-row items-center gap-1 p-1p5">
+            <img src="/images/wifi-solid.svg" />
+            <div class="toast-content">
+              <div class="title">You're connected to Wifi</div>
+              <div class="subtitle">Enjoy your stay here!</div>
+            </div>
+            <button class="button-reset ml-auto toast-close">
+              <i class="fas fa-times"></i>
+            </button>
+          </div>
+        </div>
+
+        <h4>Icon Toast Demo</h4>
+        <div class="component-example-container">
+          <button class="button primary icon-toast-demo">
+            Icon Toast Demo
+          </button>
+          <div class="icon-toast-container">
+            <div class="toast flex-row items-center gap-1 p-1p5">
+              <img src="/images/wifi-solid.svg" />
+              <div class="toast-content">
+                <div class="title">You're connected to Wifi</div>
+                <div class="subtitle">Enjoy your stay here!</div>
+              </div>
+              <button class="button-reset ml-auto toast-close">
+                <i class="fas fa-times"></i>
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </div>

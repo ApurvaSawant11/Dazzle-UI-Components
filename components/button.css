@@ -10,6 +10,12 @@
     text-transform: uppercase;
 }
 
+.button-reset {
+    border: unset;
+    outline: none;
+    cursor: pointer;
+}
+
 .button-anchor {
     color: black;
     background-color: #efefef;
@@ -29,7 +35,8 @@
     background-color: transparent;
 }
 
-.inverted-primary:hover, .inverted-primary:focus {
+.inverted-primary:hover,
+.inverted-primary:focus {
     background-color: var(--primary);
     border: 1px solid var(--primary);
     color: var(--white);
@@ -41,7 +48,8 @@
     background-color: transparent;
 }
 
-.inverted-secondary:hover, .inverted-secondary:focus {
+.inverted-secondary:hover,
+.inverted-secondary:focus {
     background-color: var(--secondary);
     border: 1px solid var(--secondary);
     color: var(--white);
@@ -53,7 +61,8 @@
     background-color: transparent;
 }
 
-.inverted-success:hover, .inverted-success:focus {
+.inverted-success:hover,
+.inverted-success:focus {
     background-color: var(--success);
     border: 1px solid var(--success);
     color: var(--success-text);
@@ -65,7 +74,8 @@
     background-color: transparent;
 }
 
-.inverted-info:hover, .inverted-info:focus {
+.inverted-info:hover,
+.inverted-info:focus {
     background-color: var(--info);
     border: 1px solid var(--info);
     color: var(--white);
@@ -77,7 +87,8 @@
     background-color: transparent;
 }
 
-.inverted-warning:hover, .inverted-warning:focus {
+.inverted-warning:hover,
+.inverted-warning:focus {
     background-color: var(--warning);
     border: 1px solid var(--warning);
     color: var(--warning-text);
@@ -89,7 +100,8 @@
     background-color: transparent;
 }
 
-.inverted-danger:hover, .inverted-danger:focus {
+.inverted-danger:hover,
+.inverted-danger:focus {
     background-color: var(--danger);
     border: 1px solid var(--danger);
     color: var(--white);
