@@ -2,12 +2,12 @@
 
 .primary {
   background-color: var(--primary);
-  color: var(--white);
+  color: var(--white-color);
 }
 
 .secondary {
   background-color: var(--secondary);
-  color: var(--white);
+  color: var(--white-color);
 }
 
 .success {
@@ -17,7 +17,7 @@
 
 .info {
   background-color: var(--info);
-  color: var(--white);
+  color: var(--white-color);
 }
 
 .warning {
@@ -27,7 +27,7 @@
 
 .danger {
   background-color: var(--danger);
-  color: var(--white);
+  color: var(--white-color);
 }
 
 /* --------------- text-color ------------ */
