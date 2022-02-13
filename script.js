@@ -37,10 +37,16 @@ const iconToastDemo = document.querySelector('.icon-toast-demo');
 const iconToast = document.querySelector(".icon-toast-container");
 const iconToastClose = document.querySelector('.icon-toast-close');
 
-simpleToastDemo.addEventListener('click', () => toggleShowClass(simpleToast));
+simpleToastDemo.addEventListener('click', () => {
+    toggleShowClass(simpleToast)
+    setTimeout(() => toggleShowClass(simpleToast), 3000);
+});
 
 simpleToastClose.addEventListener('click', () => toggleShowClass(simpleToast))
 
-iconToastDemo.addEventListener('click', () => toggleShowClass(iconToast));
+iconToastDemo.addEventListener('click', () => {
+    toggleShowClass(iconToast)
+    setTimeout(() => toggleShowClass(iconToast), 3000);
+});
 
 iconToastClose.addEventListener('click', () => toggleShowClass(iconToast))
