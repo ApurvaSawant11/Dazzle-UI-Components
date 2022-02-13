@@ -1,40 +1,100 @@
-.font-size-sm {
-    font-size: small;
+.text-xs {
+    font-size: 0.85rem;
 }
 
-.font-size-md {
-    font-size: 1.2rem;
+.text-sm {
+    font-size: 1rem;
 }
 
-.font-size-lg{
-    font-size: 1.4rem !important;
+.text-md {
+    font-size: 1.1rem;
 }
 
-.font-s-2 {
+.text-lg{
+    font-size: 1.25rem;
+}
+
+.text-xl {
+    font-size: 1.5rem;
+}
+
+.text-2xl {
     font-size: 2rem;
 }
 
+.text-3xl {
+    font-size: 2.5rem;
+}
+
 /* ----------------- font-weight------------- */
-.font-w-300 {
+.fw-100 {
+    font-weight: 100;
+}
+
+.fw-200 {
+    font-weight: 200;
+}
+
+.fw-300 {
     font-weight: 300;
 }
 
-.font-w-500 {
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-500 {
     font-weight: 500;
 }
 
-.font-w-700 {
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-700 {
     font-weight: 700;
+}
+
+.fw-800 {
+    font-weight: 800;
+}
+
+.fw-900 {
+    font-weight: 900;
 }
 
 /* ------------------- text alignment ------------------ */
 
-.text-center{
+.text-center {
     text-align: center;
 }
-.text-left{
+
+.text-left {
     text-align: left;
 }
-.text-right{
+
+.text-right {
     text-align: right;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+/* -------------------- text decoration ------------------ */
+
+.underline {
+    text-decoration: underline;
+}
+
+.overline {
+    text-decoration: overline;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.no-underline {
+    text-decoration: none;
 }

@@ -5,7 +5,7 @@
     width: 25rem;
 }
 
-.toast-close {
+.toast-close, .icon-toast-close {
     border-radius: 50%;
     background: var(--border-color);
     padding: 0.25rem 0.65rem;
