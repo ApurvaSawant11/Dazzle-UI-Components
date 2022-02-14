@@ -84,10 +84,6 @@
 }
 
 /* -------------------- Badge -------------------- */
-.wrap {
-    position: absolute;
-}
-
 .badge-text {
     position: absolute;
     font-size: small;
