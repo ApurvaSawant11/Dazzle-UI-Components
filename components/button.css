@@ -126,3 +126,13 @@
     position: static;
     z-index: 1;
 }
+
+/* -----------------Button reset-------------------- */
+.plain-button {
+    cursor: pointer;
+    background: transparent;
+    border: unset;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
