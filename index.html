@@ -263,7 +263,7 @@
             </div>
             <div class="card-details text-center">
               <div class="title">Clay Craft</div>
-              <p class="subtitle">signature round bottle</p>
+              <p class="subtitle my-0p5">signature round bottle</p>
               <div class="card-footer-vertical">
                 <span class="discountedPrice">Rs. 499</span>
                 <span class="originalPrice pl-0p5">Rs. 999</span>
@@ -279,7 +279,7 @@
             </div>
             <div class="card-details text-center">
               <div class="title">Clay Craft</div>
-              <p class="subtitle">signature round bottle</p>
+              <p class="subtitle my-0p5">signature round bottle</p>
               <div class="card-footer-vertical">
                 <span class="discountedPrice">Rs. 499</span>
                 <span class="originalPrice">Rs. 999</span>
@@ -299,7 +299,7 @@
             </div>
             <div class="card-details text-center">
               <div class="title">Clay Craft</div>
-              <p class="subtitle">signature round bottle</p>
+              <p class="subtitle my-0p5">signature round bottle</p>
               <div class="card-footer-vertical">
                 <span class="discountedPrice">Rs. 499</span>
                 <span class="originalPrice">Rs. 999</span>
@@ -927,6 +927,184 @@
                 <i class="fas fa-times"></i>
               </button>
             </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ------------------Navigation bar------------------- -->
+      <div class="component-heading">
+        <h3>Navigation bar</h3>
+      </div>
+
+      <div class="component-body">
+        <div class="display-block card-shadow">
+          <header class="flex-row wrap">
+            <div class="navbar-section">
+              <i class="fas fa-bars fa-lg primary-text myhamburger"></i>
+              <a href="#" class="navbar-logo no-underline">
+                <img class="logo-img" src="/images/logo.svg" alt="dazzle UI" />
+                <span class="primary-text">Dazzle</span>
+                <span class="secondary-text ml-0p5">UI</span>
+              </a>
+              <a href="#" class="navbar-link ml-2">Home</a>
+              <a href="#" class="navbar-link ml-2">Shop All</a>
+            </div>
+
+            <div class="navbar-section">
+              <div class="navbar-icon-link mr-1">
+                <i class="fa fa-search navbar-search-icon"></i>
+              </div>
+
+              <div class="navbar-icon">
+                <a class="navbar-icon-link" href="#">
+                  <i class="fas fa-user-alt"></i>
+                  <span class="navbar-icon-text">Login</span>
+                </a>
+              </div>
+              <div class="navbar-icon">
+                <a class="navbar-icon-link" href="#">
+                  <i class="fas fa-heart"></i>
+                  <span class="navbar-icon-text">Wishlist</span>
+                </a>
+              </div>
+              <div class="navbar-icon">
+                <a class="navbar-icon-link" href="#">
+                  <i class="fas fa-shopping-cart badge badge-icon">
+                    <span class="badge-value icon-badge secondary">2</span>
+                  </i>
+                  <span class="navbar-icon-text">Cart</span>
+                </a>
+              </div>
+            </div>
+          </header>
+          <form class="navbar-searchbar">
+            <input
+              class="search-input"
+              placeholder="What are you looking for?"
+            />
+            <i class="fa fa-search searchbar-search-icon"></i>
+            <i class="fas fa-times searchbar-close-icon"></i>
+          </form>
+        </div>
+        <div class="component-heading">
+          <h3>Navigation Drawer</h3>
+        </div>
+
+        <div class="component-body">
+          <div class="component-example-container">
+            <div class="drawer-container border-1">
+              <h4 class="m-0">Title</h4>
+              <p class="subtitle">subtitle</p>
+              <div class="list">
+                <ul class="list-style">
+                  <li class="list-item mt-0p5 active">
+                    <i class="fas fa-inbox fa-lg drawer-icon mr-1"></i> Inbox
+                  </li>
+                  <li class="list-item mt-0p5">
+                    <i class="fas fa-star fa-lg drawer-icon mr-1"></i> Star
+                  </li>
+                  <li class="list-item mt-0p5">
+                    <i class="fas fa-paper-plane fa-lg drawer-icon mr-1"></i
+                    >Sent Mail
+                  </li>
+                  <li class="list-item mt-0p5">
+                    <i class="fas fa-envelope-open fa-lg drawer-icon mr-1"></i>
+                    Drafts
+                  </li>
+                  <li class="list-item mt-0p5 nested">
+                    <i
+                      class="fas fa-tag fa-flip-horizontal fa-lg drawer-icon mr-1"
+                    ></i>
+                    Categories
+                    <div class="chevron-buttons">
+                      <i class="fas fa-chevron-down dropdown"></i>
+                      <i class="fas fa-chevron-up up"></i>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ----------------------------slider----------------------- -->
+      <div class="component-heading">
+        <h3>Slider</h3>
+      </div>
+
+      <div class="component-body">
+        <h4>Price range slider</h4>
+        <div class="component-example-container">
+          <div class="price-range mt-2">
+            <div class="range-group">
+              <input
+                type="range"
+                class="range min-range"
+                min="0"
+                max="19999"
+                value="0"
+              />
+              <input
+                type="range"
+                class="range max-range"
+                min="0"
+                max="19999"
+                value="19999"
+              />
+              <div class="slider">
+                <div class="progress"></div>
+              </div>
+            </div>
+            <div class="input-group mt-2">
+              <div class="price-range__input">
+                <span class="input-prefix">₹</span>
+                <input
+                  class="range-input-field min-field"
+                  type="number"
+                  min="0"
+                  max="19999"
+                  value="0"
+                />
+              </div>
+              <span class="price-range__delimiter">-</span>
+              <div class="price-range__input">
+                <span class="input-prefix">₹</span>
+                <input
+                  class="range-input-field max-field"
+                  type="number"
+                  value="19999"
+                  min="0"
+                  max="19999"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h4>Carousel</h4>
+        <div class="component-example-container">
+          <div class="carousel-container">
+            <div class="container">
+              <img class="carousel-img" src="/images/carousel-3.jpg" />
+            </div>
+
+            <div class="container">
+              <img class="carousel-img" src="/images/carousel-4.jpg" />
+            </div>
+
+            <a class="left" onclick="moveSlide(-1)">
+              <i class="fas fa-angle-left text-xl" aria-hidden="true"></i>
+            </a>
+            <a class="right" onclick="moveSlide(1)">
+              <i class="fas fa-angle-right text-xl" aria-hidden="true"></i>
+            </a>
+          </div>
+          <br />
+
+          <div class="text-center">
+            <span class="dots" onclick="currentSlide(1)"></span>
+            <span class="dots" onclick="currentSlide(2)"></span>
           </div>
         </div>
       </div>

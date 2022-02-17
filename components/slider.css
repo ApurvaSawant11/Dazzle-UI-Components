@@ -1,0 +1,125 @@
+.slider {
+    height: 5px;
+    border-radius: 5px;
+    background: var(--border-color);
+    position: relative;
+}
+
+.progress {
+    height: 5px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    border-radius: 5px;
+    background: var(--secondary);
+}
+
+.range-group {
+    position: relative;
+}
+
+.range-group input {
+    position: absolute;
+    top: -1px;
+    height: 5px;
+    width: 100%;
+    background: none;
+    -webkit-appearance: none;
+    pointer-events: none;
+    z-index: 1;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    cursor: pointer;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    background: var(--secondary);
+    pointer-events: auto;
+    -webkit-appearance: none;
+}
+
+.input-group,
+.price-range__input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price-range__input {
+    border: 1px solid var(--border-color);
+    padding: 8px 10px;
+}
+
+.range-input-field {
+    border: none;
+    outline: none;
+    text-align: end;
+}
+
+.range-input-field::-webkit-outer-spin-button,
+.range-input-field::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* -------------------------carousel----------------------- */
+.carousel-container {
+    width: 100%;
+    height: 30rem;
+    position: relative;
+    margin: auto;
+}
+
+.carousel-img {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    height: 30rem;
+    object-fit: cover;
+}
+
+.container {
+    display: none;
+}
+
+.left,
+.right {
+    cursor: pointer;
+    position: absolute;
+    top: 48%;
+    width: auto;
+    margin-top: -1rem;
+    padding: 1rem;
+    color: var(--dark-black);
+    transition: 0.4s ease;
+    border-radius: 0 5px 5px 0;
+    user-select: none;
+}
+
+.right {
+    right: 0;
+    border-radius: 4px 0 0 4px;
+}
+
+.left:hover,
+.right:hover {
+    color: var(--white-color);
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.dots {
+    cursor: pointer;
+    height: 1rem;
+    width: 1rem;
+    margin: 0 3px;
+    background-color: var(--opacity-50);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.5s ease;
+}
+
+.enable,
+.dots:hover {
+    background-color: var(--dark-black);
+}
