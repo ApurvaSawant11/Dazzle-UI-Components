@@ -1,6 +1,6 @@
 header {
     border-bottom: 2px solid var(--light-gray);
-    padding: 0.8rem 1.5rem;
+    padding: 1rem 1rem 0.5rem 0.5rem;
     top: 0;
     justify-content: space-between;
 }
@@ -29,7 +29,6 @@ header {
 .navbar-search-icon,
 .myhamburger {
     cursor: pointer;
-    font-size: 1.2rem;
 }
 
 .myhamburger {
@@ -76,7 +75,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 0.5rem;
+    padding: 0 1rem;
     text-decoration: none;
     font-size: 1.5rem;
 }
@@ -91,12 +90,9 @@ header {
 
 @media screen and (max-width: 860px) {
 
-    header {
-        padding: 0.8rem 1rem;
-    }
-
     .navbar-icon-link {
         font-size: 1rem;
+        padding: 0 0.5rem;
     }
 
     .navbar-link {
@@ -112,7 +108,7 @@ header {
 
     .logo-img {
         height: 2.5rem;
-        width: 5rem;
+        width: 4rem;
     }
 
     .navbar-logo {
@@ -123,6 +119,7 @@ header {
 @media screen and (max-width: 720px) {
     .myhamburger {
         display: block;
+        margin-left: 1rem;
     }
 
     .navbar-link {
@@ -130,6 +127,11 @@ header {
     }
 }
 
+@media screen and (max-width: 600px) {
+    .navbar-section > .navbar-icon:nth-child(2), .navbar-section > .navbar-icon:nth-child(3){
+        display: none;
+    }
+}
 /* --------------------------drawer---------------------- */
 .drawer-container {
     background-color: var(--white-color);
