@@ -94,7 +94,7 @@ rangeInput.forEach(input => {
 });
 
 // -----------------------carousel------------------
-var slidePosition = 1;
+let slidePosition = 1;
 CarouselSlideShow(slidePosition);
 
 function moveSlide(n) {
@@ -106,9 +106,8 @@ function currentSlide(n) {
 }
 
 function CarouselSlideShow(n) {
-    var i;
-    var slides = document.querySelectorAll(".container");
-    var circles = document.querySelectorAll(".dots");
+    const slides = document.querySelectorAll(".container");
+    const circles = document.querySelectorAll(".dots");
     if (n > slides.length) {
         slidePosition = 1
     }
