@@ -21,7 +21,9 @@
 @import "./input.css";
 @import "./list.css";
 @import "./modal.css";
+@import "./navigation.css";
 @import "./rating.css";
+@import "./slider.css";
 @import "./toast.css";
 
 * {
@@ -47,6 +49,7 @@
   --success: #52e252;
   --success-text: #025002;
   --info: #1863c5;
+  --info-hover: #dfedff;
   --warning: #f7cc42;
   --warning-text: #764605;
   --danger: #fc2424;
@@ -54,6 +57,7 @@
   --shadow: #acacac;
   --card-button: #f0fffb;
   --overlay: rgba(0, 0, 0, 0.6);
+  --opacity-50: rgba(0, 0, 0, 0.26);
 }
 
 html {
