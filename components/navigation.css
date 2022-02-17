@@ -1,4 +1,4 @@
-header {
+.header {
     border-bottom: 2px solid var(--light-gray);
     padding: 1rem 1rem 0.5rem 0.5rem;
     top: 0;
