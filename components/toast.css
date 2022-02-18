@@ -5,7 +5,8 @@
     width: 25rem;
 }
 
-.toast-close, .icon-toast-close {
+.toast-close,
+.icon-toast-close {
     border-radius: 50%;
     background: var(--border-color);
     padding: 0.25rem 0.65rem;
@@ -18,4 +19,17 @@
     bottom: 1rem;
     right: 1rem;
     z-index: 1;
+}
+
+@media screen and (max-width: 480px) {
+
+    .simple-toast-container,
+    .icon-toast-container {
+        right: unset;
+    }
+
+    .toast {
+        padding: 1rem;
+        width: auto;
+    }
 }
