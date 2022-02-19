@@ -123,11 +123,14 @@
     }
 }
 
-@media screen and (max-width: 600px) {
-    .navbar-section > .navbar-icon:nth-child(2), .navbar-section > .navbar-icon:nth-child(3){
+@media screen and (max-width: 480px) {
+
+    .navbar-section>.navbar-icon:nth-child(2),
+    .navbar-section>.navbar-icon:nth-child(3) {
         display: none;
     }
 }
+
 /* --------------------------drawer---------------------- */
 .drawer-container {
     background-color: var(--white-color);
