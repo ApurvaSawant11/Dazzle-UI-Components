@@ -124,7 +124,6 @@
 }
 
 @media screen and (max-width: 600px) {
-
     .navbar-section>.navbar-icon:nth-child(2),
     .navbar-section>.navbar-icon:nth-child(3) {
         display: none;
