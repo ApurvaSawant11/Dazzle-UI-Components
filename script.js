@@ -38,18 +38,18 @@ const iconToast = document.querySelector(".icon-toast-container");
 const iconToastClose = document.querySelector('.icon-toast-close');
 
 simpleToastDemo.addEventListener('click', () => {
-    toggleShowClass(simpleToast)
-    setTimeout(() => toggleShowClass(simpleToast), 3000);
+    simpleToast.classList.add("show")
+    setTimeout(() => simpleToast.classList.remove("show"), 3000);
 });
 
-simpleToastClose.addEventListener('click', () => toggleShowClass(simpleToast))
+simpleToastClose.addEventListener('click', () => simpleToast.classList.remove("show"))
 
 iconToastDemo.addEventListener('click', () => {
-    toggleShowClass(iconToast)
-    setTimeout(() => toggleShowClass(iconToast), 3000);
+    iconToast.classList.add('show')
+    setTimeout(() => iconToast.classList.remove('show'), 3000);
 });
 
-iconToastClose.addEventListener('click', () => toggleShowClass(iconToast))
+iconToastClose.addEventListener('click', () => iconToast.classList.remove('show'))
 
 // ----------------slider-----------------------
 
