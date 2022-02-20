@@ -97,8 +97,8 @@
     }
 
     .badge-value {
-        height: 1rem;
-        width: 1rem;
+        height: 1.2rem;
+        width: 1.2rem;
         font-size: small;
     }
 
@@ -123,8 +123,7 @@
     }
 }
 
-@media screen and (max-width: 480px) {
-
+@media screen and (max-width: 600px) {
     .navbar-section>.navbar-icon:nth-child(2),
     .navbar-section>.navbar-icon:nth-child(3) {
         display: none;

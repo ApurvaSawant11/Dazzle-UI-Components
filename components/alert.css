@@ -1,5 +1,4 @@
-
-.alert{
+.alert {
     border-radius: 4px;
     padding: 0.5rem 1rem;
     display: flex;
@@ -8,10 +7,16 @@
     width: 60%;
 }
 
-.alert-link{
+.alert-link {
     color: var(--white-color);
 }
 
-.fa-times{
+.fa-times {
     cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+    .alert {
+        width: 85%;
+    }
 }
