@@ -58,6 +58,10 @@ This repository has all the code used to build Dazzle UI components.
 
 ![Dazzle UI Demo](/images/gif/dazzle_ui_gif.gif)
 
+## Responsive Demo
+
+<div align="center"><img src="/images/gif/dazzle_ui_mobile_gif.gif" width="350" height="700" /></div>
+
 ## Connect
 
 <a href="https://twitter.com/ApurvaSawant11"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/></a>
