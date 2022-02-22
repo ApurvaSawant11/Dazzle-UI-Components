@@ -1,5 +1,5 @@
 .modal {
-    background: var(--white-color);
+    background: var(--theme-bg);
     border-radius: 4px;
     width: 60%;
     max-width: 35rem;

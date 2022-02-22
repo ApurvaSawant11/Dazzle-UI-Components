@@ -132,7 +132,7 @@
 
 /* --------------------------drawer---------------------- */
 .drawer-container {
-    background-color: var(--white-color);
+    background-color: var(--theme-bg);
     border-radius: 2px;
     padding: 1rem;
     width: 16.5rem;
