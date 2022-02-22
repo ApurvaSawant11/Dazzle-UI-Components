@@ -45,21 +45,21 @@
 }
 
 .card-shadow {
-    box-shadow: 0 1px 4px 1px #acacac;
+    box-shadow: 0 1px 4px 1px var(--shadow);
 }
 
 .card-button {
     color: var(--secondary);
     width: 100%;
     border-top: 2px solid var(--border-color);
-    background: var(--card-button);
+    background: var(--card-button-bg);
     border-radius: 4px;
     padding: 0.75rem 0;
 }
 
 .card-button:hover {
     background: var(--secondary);
-    color: var(--secondary-text);
+    color: var(--theme-bg);
 }
 
 /* -------------------Horizontal------------------- */
@@ -154,7 +154,7 @@
 
 .text-overlay {
     position: absolute;
-    background: #4d4d4d9a;
+    background: var(--overlay);
     display: flex;
     justify-content: center;
     align-items: center;

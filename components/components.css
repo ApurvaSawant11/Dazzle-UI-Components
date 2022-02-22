@@ -36,7 +36,8 @@
 }
 
 :root {
-  --basic: #efefef;
+  --basic-bg: #efefef;
+  --basic-text: #000000;
   --primary: #19456b;
   --primary-hover: #133e64;
   --secondary: #16c79a;
@@ -47,16 +48,18 @@
   --light-gray: #f0f0f0;
   --dark-gray: #6e6e6e;
   --success: #52e252;
-  --success-text: #025002;
+  --success-text: #011e01;
   --info: #1863c5;
   --info-hover: #dfedff;
   --warning: #f7cc42;
-  --warning-text: #764605;
+  --warning-text: #533203;
   --danger: #fc2424;
   --border-color: #dddddd;
   --shadow: #acacac;
-  --card-button: #f0fffb;
-  --overlay: rgba(0, 0, 0, 0.6);
+  --card-button-bg: #f0fffb;
+  --theme-bg:#ffffff;
+  --theme-text-color: #313131;
+  --overlay: rgba(77, 77, 77, 0.604);
   --opacity-50: rgba(0, 0, 0, 0.26);
 }
 
