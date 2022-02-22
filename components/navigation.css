@@ -158,6 +158,7 @@
 .list-item.active {
     color: var(--info);
     background-color: var(--info-hover);
+    font-weight: 700;
 }
 
 .fa-chevron-up,

@@ -61,6 +61,10 @@
   color: var(--danger);
 }
 
+.white-text {
+  color: var(--white-color);
+}
+
 .dark-gray-text {
   color: var(--dark-gray);
 }

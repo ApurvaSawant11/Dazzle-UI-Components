@@ -39,7 +39,7 @@
 .inverted-primary:focus {
     background-color: var(--primary);
     border: 1px solid var(--primary);
-    color: var(--white-color);
+    color: var(--theme-bg);
 }
 
 .inverted-secondary {
@@ -52,7 +52,7 @@
 .inverted-secondary:focus {
     background-color: var(--secondary);
     border: 1px solid var(--secondary);
-    color: var(--white-color);
+    color: var(--theme-bg);
 }
 
 .inverted-success {
