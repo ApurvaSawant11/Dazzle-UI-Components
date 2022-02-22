@@ -57,10 +57,25 @@
   --border-color: #dddddd;
   --shadow: #acacac;
   --card-button-bg: #f0fffb;
-  --theme-bg:#ffffff;
+  --theme-bg: #ffffff;
   --theme-text-color: #313131;
   --overlay: rgba(77, 77, 77, 0.604);
   --opacity-50: rgba(0, 0, 0, 0.26);
+}
+
+[data-theme="dark"] {
+  --theme-bg: "#141414";
+  --theme-text-color: "#bbbbbb";
+  --navbar-bg: "#0e0e0e";
+  --primary: "#1c96ff";
+  --primary-hover: "#133e64";
+  --info-hover: "#cbe2ff";
+  --border-color: "#646464";
+  --shadow: "#3c3c3c";
+  --card-button-bg: "#080808";
+  --code-snippet: "#0c0c0c";
+  --overlay: "rgba(56, 56, 56, 0.60)";
+
 }
 
 html {
