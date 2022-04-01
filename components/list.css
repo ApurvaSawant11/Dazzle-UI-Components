@@ -33,3 +33,7 @@
     list-style: lower-alpha;
     border: 0;
 }
+
+.list-heading {
+    justify-content: space-between;
+}

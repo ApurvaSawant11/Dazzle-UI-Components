@@ -64,6 +64,13 @@
     justify-content: stretch;
 }
 
+.content-between {
+    justify-content: space-between;
+}
+
+.content-arround {
+    justify-content: space-around;
+}
 /* ------------------flex gap--------------------------- */
 .gap-0p5{
     gap: 0.5rem;
